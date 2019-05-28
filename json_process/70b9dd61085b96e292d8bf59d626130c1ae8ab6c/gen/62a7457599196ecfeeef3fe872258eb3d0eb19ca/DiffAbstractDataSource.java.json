@@ -1,0 +1,118 @@
+[
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "80,22,27",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "80,22,27",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(80,80)-(80,80)",
+        "description": "moveSimpleType",
+        "id": 37,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "89,29,34",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "89,29,34",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(89,89)-(89,89)",
+        "description": "moveSimpleType",
+        "id": 38,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [
+            {
+                "file": "dst",
+                "sub-range-code": "79,1,31",
+                "sub-type": "insert"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "80,9,10",
+                "sub-type": "insert"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "80,22,30",
+                "sub-type": "insert"
+            },
+            {
+                "file": "src",
+                "sub-range-code": "80,8,14",
+                "sub-type": "update"
+            }
+        ],
+        "range": "(80,87)-(79,87)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 39,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "dst",
+            "sub-range-code": "89,29,37",
+            "sub-type": "insert"
+        }],
+        "range": "(89,91)-(89,91)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 40,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [
+            {
+                "file": "dst",
+                "sub-range-code": "86,9,17",
+                "sub-type": "insert"
+            },
+            {
+                "file": "src",
+                "sub-range-code": "86,9,13",
+                "sub-type": "delete"
+            }
+        ],
+        "range": "(86,86)-(86,86)",
+        "description": "updateReturn   by",
+        "id": 41,
+        "type1": "Statement",
+        "opt2-exp2": [
+            "add CastExpression",
+            "add T",
+            "add ThisExpression",
+            "delete ThisExpression"
+        ],
+        "key": "gumtree"
+    }
+]

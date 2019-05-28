@@ -1,0 +1,167 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    SimpleName:InjectionMetadata
+    MethodDeclaration: [D]
+      Modifier:public [M]
+      SimpleName:InjectionMetadata [M]
+      Block: [D]
+    MethodDeclaration: [D]
+      Modifier:public [D]
+      SimpleName:InjectionMetadata [D]
+      SingleVariableDeclaration: [M]
+        SimpleType:Class
+          SimpleName:Class
+        SimpleName:targetClass
+      Block: [D]
+        ExpressionStatement: [M]
+          Assignment:=
+            FieldAccess:
+              ThisExpression:
+              SimpleName:targetClassName [U]
+            MethodInvocation: [M]
+              SimpleName:targetClass
+              SimpleName:getName
+    MethodDeclaration: [D]
+      Modifier:public [D]
+      PrimitiveType:void [D]
+      SimpleName:checkConfigMembers [D]
+      SingleVariableDeclaration: [M]
+        SimpleType:RootBeanDefinition
+          SimpleName:RootBeanDefinition
+        SimpleName:beanDefinition
+      Block: [D]
+        ExpressionStatement: [M]
+          MethodInvocation:
+            SimpleName:doRegisterConfigMembers [U]
+            SimpleName:beanDefinition [U]
+            FieldAccess: [D]
+              ThisExpression: [D]
+              SimpleName:injectedFields [D]
+        ExpressionStatement: [M]
+          MethodInvocation:
+            SimpleName:doRegisterConfigMembers [D]
+            SimpleName:beanDefinition [D]
+            FieldAccess:
+              ThisExpression:
+              SimpleName:injectedMethods [U]
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:void
+      SimpleName:injectFields [U]
+      SingleVariableDeclaration: [D]
+        SimpleType:Object [D]
+          SimpleName:Object [U,M]
+        SimpleName:target [D]
+      SingleVariableDeclaration: [D]
+        SimpleType:String [D]
+          SimpleName:String [U,M]
+        SimpleName:beanName [D]
+      SimpleType:Throwable [D]
+        SimpleName:Throwable [D]
+      Block: [D]
+        IfStatement: [D]
+          PrefixExpression:! [D]
+            MethodInvocation: [D]
+              FieldAccess: [M]
+                ThisExpression:
+                SimpleName:injectedFields [U]
+              SimpleName:isEmpty [U,M]
+          Block: [D]
+            VariableDeclarationStatement: [M]
+              PrimitiveType:boolean [D]
+              VariableDeclarationFragment:
+                SimpleName:debug [U]
+                MethodInvocation: [D]
+                  SimpleName:logger [U,M]
+                  SimpleName:isDebugEnabled [U,M]
+            EnhancedForStatement: [D]
+              SingleVariableDeclaration: [M]
+                SimpleType:InjectedElement
+                  SimpleName:InjectedElement
+                SimpleName:element
+              FieldAccess: [D]
+                ThisExpression: [D]
+                SimpleName:injectedFields [D]
+              Block: [D]
+                IfStatement: [D]
+                  SimpleName:debug [D]
+                  Block: [M]
+                    ExpressionStatement:
+                      MethodInvocation:
+                        SimpleName:logger [U]
+                        SimpleName:debug [U]
+                        InfixExpression:+ [D]
+                          StringLiteral:"Processing injected field of bean '" [D]
+                          SimpleName:beanName [D]
+                          StringLiteral:"': " [D]
+                          SimpleName:element [D]
+                ExpressionStatement: [M]
+                  MethodInvocation:
+                    SimpleName:element [D]
+                    SimpleName:inject [U]
+                    SimpleName:target [D]
+                    SimpleName:beanName [U]
+                    NullLiteral: [D]
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:void
+      SimpleName:injectMethods [U]
+      SingleVariableDeclaration:
+        SimpleType:Object
+          SimpleName:Object
+        SimpleName:target
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:beanName
+      SingleVariableDeclaration:
+        SimpleType:PropertyValues
+          SimpleName:PropertyValues
+        SimpleName:pvs
+      SimpleType:Throwable
+        SimpleName:Throwable
+      Block:
+        IfStatement:
+          PrefixExpression:!
+            MethodInvocation:
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectedMethods [U]
+              SimpleName:isEmpty
+          Block:
+            VariableDeclarationStatement:
+              PrimitiveType:boolean
+              VariableDeclarationFragment:
+                SimpleName:debug
+                MethodInvocation:
+                  SimpleName:logger
+                  SimpleName:isDebugEnabled
+            EnhancedForStatement:
+              SingleVariableDeclaration:
+                SimpleType:InjectedElement
+                  SimpleName:InjectedElement
+                SimpleName:element
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectedMethods [U]
+              Block:
+                IfStatement:
+                  SimpleName:debug
+                  Block:
+                    ExpressionStatement:
+                      MethodInvocation:
+                        SimpleName:logger
+                        SimpleName:debug
+                        InfixExpression:+
+                          StringLiteral:"Processing injected method of bean '"
+                          SimpleName:beanName
+                          StringLiteral:"': "
+                          SimpleName:element
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:element
+                    SimpleName:inject
+                    SimpleName:target
+                    SimpleName:beanName
+                    SimpleName:pvs

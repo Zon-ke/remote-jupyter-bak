@@ -1,0 +1,192 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    Modifier:abstract
+    SimpleName:AbstractJdbcCall
+    FieldDeclaration:
+      Modifier:private
+      SimpleType:JdbcTemplate
+        SimpleName:JdbcTemplate
+      VariableDeclarationFragment:
+        SimpleName:jdbcTemplate
+        ClassInstanceCreation: [D]
+          SimpleType:JdbcTemplate [D]
+            SimpleName:JdbcTemplate [D]
+    MethodDeclaration:
+      Modifier:protected
+      ParameterizedType:Map<String,Object>
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String
+          SimpleName:String
+        SimpleType:Object
+          SimpleName:Object
+      SimpleName:doExecute
+      SingleVariableDeclaration:
+        SimpleType:SqlParameterSource
+          SimpleName:SqlParameterSource
+        SimpleName:parameterSource
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:checkCompiled
+        VariableDeclarationStatement:
+          SimpleType:Map [M]
+            SimpleName:Map
+          VariableDeclarationFragment:
+            SimpleName:params
+            MethodInvocation:
+              SimpleName:matchInParameterValuesWithCallParameters
+              SimpleName:parameterSource
+        ReturnStatement:
+          MethodInvocation:
+            SimpleName:executeCallInternal
+            SimpleName:params
+    MethodDeclaration:
+      Modifier:protected
+      ParameterizedType:Map<String,Object>
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String
+          SimpleName:String
+        SimpleType:Object
+          SimpleName:Object
+      SimpleName:doExecute
+      SingleVariableDeclaration:
+        ParameterizedType:Map<String,Object> [U]
+          SimpleType:Map [M]
+            SimpleName:Map
+          SimpleType:String
+            SimpleName:String
+          SimpleType:Object [M]
+            SimpleName:Object
+        SimpleName:args
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:checkCompiled
+        VariableDeclarationStatement:
+          SimpleType:Map [M]
+            SimpleName:Map
+          VariableDeclarationFragment:
+            SimpleName:params
+            MethodInvocation:
+              SimpleName:matchInParameterValuesWithCallParameters
+              SimpleName:args
+        ReturnStatement:
+          MethodInvocation:
+            SimpleName:executeCallInternal
+            SimpleName:params
+    MethodDeclaration:
+      Modifier:private
+      ParameterizedType:Map<String,Object>
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String
+          SimpleName:String
+        SimpleType:Object
+          SimpleName:Object
+      SimpleName:executeCallInternal
+      SingleVariableDeclaration:
+        SimpleType:Map [M]
+          SimpleName:Map
+        SimpleName:params
+      Block:
+        VariableDeclarationStatement:
+          SimpleType:CallableStatementCreator
+            SimpleName:CallableStatementCreator
+          VariableDeclarationFragment:
+            SimpleName:csc
+            MethodInvocation:
+              MethodInvocation:
+                SimpleName:getCallableStatementFactory
+              SimpleName:newCallableStatementCreator
+              SimpleName:params
+        IfStatement:
+          MethodInvocation:
+            SimpleName:logger
+            SimpleName:isDebugEnabled
+          Block:
+            ExpressionStatement:
+              MethodInvocation:
+                SimpleName:logger
+                SimpleName:debug
+                InfixExpression:+
+                  StringLiteral:"The following parameters are used for call "
+                  MethodInvocation:
+                    SimpleName:getCallString
+                  StringLiteral:" with: "
+                  SimpleName:params
+            VariableDeclarationStatement:
+              PrimitiveType:int
+              VariableDeclarationFragment:
+                SimpleName:i
+                NumberLiteral:1
+            EnhancedForStatement:
+              SingleVariableDeclaration:
+                SimpleType:SqlParameter
+                  SimpleName:SqlParameter
+                SimpleName:p
+              MethodInvocation:
+                SimpleName:getCallParameters
+              Block:
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:logger
+                    SimpleName:debug
+                    InfixExpression:+
+                      PostfixExpression:++
+                        SimpleName:i
+                      StringLiteral:": "
+                      MethodInvocation:
+                        SimpleName:p
+                        SimpleName:getName
+                      StringLiteral:" SQL Type "
+                      MethodInvocation:
+                        SimpleName:p
+                        SimpleName:getSqlType
+                      StringLiteral:" Type Name "
+                      MethodInvocation:
+                        SimpleName:p
+                        SimpleName:getTypeName
+                      StringLiteral:" "
+                      MethodInvocation:
+                        MethodInvocation:
+                          SimpleName:p
+                          SimpleName:getClass
+                        SimpleName:getName
+        ReturnStatement:
+          MethodInvocation:
+            MethodInvocation:
+              SimpleName:getJdbcTemplate
+            SimpleName:call
+            SimpleName:csc
+            MethodInvocation:
+              SimpleName:getCallParameters
+    MethodDeclaration:
+      Modifier:protected
+      ParameterizedType:Map<String,Object> [U]
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String
+          SimpleName:String
+        SimpleType:Object [D]
+          SimpleName:Object [D]
+      SimpleName:matchInParameterValuesWithCallParameters
+      SingleVariableDeclaration:
+        ParameterizedType:Map<String,Object> [U]
+          SimpleType:Map
+            SimpleName:Map
+          SimpleType:String
+            SimpleName:String
+          SimpleType:Object [D]
+            SimpleName:Object [D]
+        SimpleName:args
+      Block:
+        ReturnStatement:
+          MethodInvocation:
+            FieldAccess:
+              ThisExpression:
+              SimpleName:callMetaDataContext
+            SimpleName:matchInParameterValuesWithCallParameters
+            SimpleName:args

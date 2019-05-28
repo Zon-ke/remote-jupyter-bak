@@ -1,0 +1,118 @@
+{"links": [
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "one-file-link",
+        "links": [
+            {
+                "from": 8,
+                "to": 6,
+                "desc": "Def-Use: decorated invoked in execute decorated"
+            },
+            {
+                "from": 6,
+                "to": 7,
+                "desc": "Def-Use: decorated invoked in execute decorated"
+            },
+            {
+                "from": 7,
+                "to": 10,
+                "desc": "Def-Use: decoratedTaskMap invoked in execute"
+            }
+        ],
+        "file-name": "ThreadPoolTaskExecutor.java"
+    },
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "one-file-link",
+        "links": [
+            {
+                "from": 18,
+                "to": 14,
+                "desc": "Def-Use: future invoked in submitListenable future"
+            },
+            {
+                "from": 18,
+                "to": 16,
+                "desc": "Def-Use: future invoked in submitListenable future"
+            },
+            {
+                "from": 17,
+                "to": 13,
+                "desc": "Def-Use: future invoked in submitListenable future"
+            },
+            {
+                "from": 17,
+                "to": 15,
+                "desc": "Def-Use: future invoked in submitListenable future"
+            },
+            {
+                "from": 14,
+                "to": 20,
+                "desc": "Def-Use: executeAndTrack invoked in submitListenable"
+            },
+            {
+                "from": 13,
+                "to": 20,
+                "desc": "Def-Use: executeAndTrack invoked in submitListenable"
+            },
+            {
+                "from": 13,
+                "to": 14,
+                "desc": "Systematic-Change"
+            },
+            {
+                "from": 17,
+                "to": 18,
+                "desc": "Systematic-Change"
+            },
+            {
+                "from": 15,
+                "to": 16,
+                "desc": "Systematic-Change"
+            }
+        ],
+        "file-name": "ThreadPoolTaskScheduler.java"
+    },
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "two-file-link",
+        "parent-commit2": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "file-name2": "ThreadPoolTaskExecutor.java",
+        "links": [{
+            "from": 4,
+            "to": 9,
+            "desc": "Abstract-Method: cancelRemainingTask implemented abstract method in ExecutorConfigurationSupport"
+        }],
+        "file-name": "ExecutorConfigurationSupport.java"
+    },
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "two-file-link",
+        "parent-commit2": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "file-name2": "ThreadPoolTaskScheduler.java",
+        "links": [{
+            "from": 4,
+            "to": 19,
+            "desc": "Abstract-Method: cancelRemainingTask implemented abstract method in ExecutorConfigurationSupport"
+        }],
+        "file-name": "ExecutorConfigurationSupport.java"
+    },
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "two-file-link",
+        "parent-commit2": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "file-name2": "ThreadPoolTaskScheduler.java",
+        "links": [],
+        "file-name": "ThreadPoolTaskExecutor.java"
+    },
+    {
+        "parent-commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+        "link-type": "one-file-link",
+        "links": [{
+            "from": 3,
+            "to": 4,
+            "desc": "Def-Use: cancelRemainingTask invoked in shutdown"
+        }],
+        "file-name": "ExecutorConfigurationSupport.java"
+    }
+]}

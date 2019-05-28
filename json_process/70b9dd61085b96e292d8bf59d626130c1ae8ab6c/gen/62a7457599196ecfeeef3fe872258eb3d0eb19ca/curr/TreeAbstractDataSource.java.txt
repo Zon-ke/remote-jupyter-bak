@@ -1,0 +1,81 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    Modifier:abstract
+    SimpleName:AbstractDataSource
+    SimpleType:DataSource
+      SimpleName:DataSource
+    MethodDeclaration:
+      SingleMemberAnnotation: [I]
+        SimpleName:SuppressWarnings [I]
+        StringLiteral:"unchecked" [I]
+      Modifier:public
+      TypeParameter: [I]
+        SimpleName:T [I]
+      SimpleType:T
+        SimpleName:T
+      SimpleName:unwrap
+      SingleVariableDeclaration:
+        ParameterizedType:Class<T> [I]
+          SimpleType:Class
+            SimpleName:Class
+          SimpleType:T [I]
+            SimpleName:T [I]
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:Assert
+            SimpleName:notNull
+            SimpleName:iface
+            StringLiteral:"Interface argument must not be null"
+        IfStatement:
+          PrefixExpression:!
+            MethodInvocation:
+              TypeLiteral:
+                SimpleType:DataSource
+                  SimpleName:DataSource
+              SimpleName:equals
+              SimpleName:iface
+          Block:
+            ThrowStatement:
+              ClassInstanceCreation:
+                SimpleType:SQLException
+                  SimpleName:SQLException
+                InfixExpression:+
+                  StringLiteral:"DataSource of type ["
+                  MethodInvocation:
+                    MethodInvocation:
+                      SimpleName:getClass
+                    SimpleName:getName
+                  StringLiteral:"] can only be unwrapped as [javax.sql.DataSource], not as ["
+                  MethodInvocation:
+                    SimpleName:iface
+                    SimpleName:getName
+        ReturnStatement:
+          CastExpression: [I]
+            SimpleType:T [I]
+              SimpleName:T [I]
+            ThisExpression: [I]
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:boolean
+      SimpleName:isWrapperFor
+      SingleVariableDeclaration:
+        ParameterizedType:Class<?> [I]
+          SimpleType:Class
+            SimpleName:Class
+          WildcardType:? [I]
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ReturnStatement:
+          MethodInvocation:
+            TypeLiteral:
+              SimpleType:DataSource
+                SimpleName:DataSource
+            SimpleName:equals
+            SimpleName:iface

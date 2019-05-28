@@ -1,0 +1,89 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2008-12-05 15:04:19",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "70b9dd61085b96e292d8bf59d626130c1ae8ab6c",
+  "commit_log": "closed Java 5 code style gaps\n\n\nclosed Java 5 code style gaps\n",
+  "parents": [
+    "62a7457599196ecfeeef3fe872258eb3d0eb19ca"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "JdbcOperations.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffJdbcOperations.java.json"
+    },
+    {
+      "id": 1,
+      "file_name": "JdbcTemplate.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffJdbcTemplate.java.json"
+    },
+    {
+      "id": 2,
+      "file_name": "CallMetaDataContext.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/metadata/CallMetaDataContext.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/metadata/CallMetaDataContext.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffCallMetaDataContext.java.json"
+    },
+    {
+      "id": 3,
+      "file_name": "AbstractJdbcCall.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/simple/AbstractJdbcCall.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/core/simple/AbstractJdbcCall.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffAbstractJdbcCall.java.json"
+    },
+    {
+      "id": 4,
+      "file_name": "AbstractDataSource.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/datasource/AbstractDataSource.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/datasource/AbstractDataSource.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffAbstractDataSource.java.json"
+    },
+    {
+      "id": 5,
+      "file_name": "DelegatingDataSource.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/datasource/DelegatingDataSource.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/datasource/DelegatingDataSource.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffDelegatingDataSource.java.json"
+    },
+    {
+      "id": 6,
+      "file_name": "SqlUpdate.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/object/SqlUpdate.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/object/SqlUpdate.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffSqlUpdate.java.json"
+    },
+    {
+      "id": 7,
+      "file_name": "StoredProcedure.java",
+      "prev_file_path": "prev/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/object/StoredProcedure.java",
+      "curr_file_path": "curr/62a7457599196ecfeeef3fe872258eb3d0eb19ca/org.springframework.jdbc/src/main/java/org/springframework/jdbc/object/StoredProcedure.java",
+      "parent_commit": "62a7457599196ecfeeef3fe872258eb3d0eb19ca",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/gen/62a7457599196ecfeeef3fe872258eb3d0eb19ca/DiffStoredProcedure.java.json"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/70b9dd61085b96e292d8bf59d626130c1ae8ab6c",
+  "actions": [
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified"
+  ]
+}

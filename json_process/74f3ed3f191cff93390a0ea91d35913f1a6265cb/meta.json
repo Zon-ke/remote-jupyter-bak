@@ -1,0 +1,26 @@
+{
+  "project_name": "spring-framework",
+  "author": "Arjen Poutsma",
+  "date_time": "2009-01-07 20:20:58",
+  "committer": "Arjen Poutsma",
+  "commit_hash": "74f3ed3f191cff93390a0ea91d35913f1a6265cb",
+  "commit_log": "Added DomContentHandler\n\n\nAdded DomContentHandler\n",
+  "parents": [
+    "76de5b0e1073201b9630307eceba338476f76e2c"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "DomContentHandler.java",
+      "prev_file_path": "prev/76de5b0e1073201b9630307eceba338476f76e2c/org.springframework.core/src/main/java/org/springframework/util/xml/DomContentHandler.java",
+      "curr_file_path": "curr/76de5b0e1073201b9630307eceba338476f76e2c/org.springframework.core/src/main/java/org/springframework/util/xml/DomContentHandler.java",
+      "parent_commit": "76de5b0e1073201b9630307eceba338476f76e2c",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/74f3ed3f191cff93390a0ea91d35913f1a6265cb/gen/76de5b0e1073201b9630307eceba338476f76e2c/DiffDomContentHandler.java.json"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/74f3ed3f191cff93390a0ea91d35913f1a6265cb/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/74f3ed3f191cff93390a0ea91d35913f1a6265cb",
+  "actions": [
+    "modified"
+  ]
+}

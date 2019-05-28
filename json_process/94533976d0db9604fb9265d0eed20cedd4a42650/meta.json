@@ -1,0 +1,122 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2009-10-21 02:18:25",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "94533976d0db9604fb9265d0eed20cedd4a42650",
+  "commit_log": "full compliance with the JSR-330 TCK\n\n\nfull compliance with the JSR-330 TCK\n",
+  "parents": [
+    "a429e230b632c40cf3167cbac54ea87b6ad87297"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "AutowiredAnnotationBeanPostProcessor.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffAutowiredAnnotationBeanPostProcessor.java.json"
+    },
+    {
+      "id": 1,
+      "file_name": "InjectionMetadata.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/annotation/InjectionMetadata.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/annotation/InjectionMetadata.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffInjectionMetadata.java.json"
+    },
+    {
+      "id": 2,
+      "file_name": "AbstractAutowireCapableBeanFactory.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffAbstractAutowireCapableBeanFactory.java.json"
+    },
+    {
+      "id": 3,
+      "file_name": "BeanDefinitionReaderUtils.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffBeanDefinitionReaderUtils.java.json"
+    },
+    {
+      "id": 4,
+      "file_name": "ClassPathBeanDefinitionScanner.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffClassPathBeanDefinitionScanner.java.json"
+    },
+    {
+      "id": 5,
+      "file_name": "CommonAnnotationBeanPostProcessor.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffCommonAnnotationBeanPostProcessor.java.json"
+    },
+    {
+      "id": 6,
+      "file_name": "ConfigurationClassApplicationContext.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassApplicationContext.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassApplicationContext.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffConfigurationClassApplicationContext.java.json"
+    },
+    {
+      "id": 7,
+      "file_name": "ClassUtils.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.core/src/main/java/org/springframework/util/ClassUtils.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.core/src/main/java/org/springframework/util/ClassUtils.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffClassUtils.java.json"
+    },
+    {
+      "id": 8,
+      "file_name": "ReflectionUtils.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.core/src/main/java/org/springframework/util/ReflectionUtils.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.core/src/main/java/org/springframework/util/ReflectionUtils.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffReflectionUtils.java.json"
+    },
+    {
+      "id": 9,
+      "file_name": "PersistenceAnnotationBeanPostProcessor.java",
+      "prev_file_path": "prev/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.orm/src/main/java/org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.orm/src/main/java/org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffPersistenceAnnotationBeanPostProcessor.java.json"
+    },
+    {
+      "id": 10,
+      "file_name": "AnnotatedBeanDefinitionReader.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/main/java/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/gen/a429e230b632c40cf3167cbac54ea87b6ad87297/DiffAnnotatedBeanDefinitionReader.java.json"
+    },
+    {
+      "id": 11,
+      "file_name": "SpringAtInjectTck.java",
+      "curr_file_path": "curr/a429e230b632c40cf3167cbac54ea87b6ad87297/org.springframework.context/src/test/java/org/springframework/context/annotation/jsr330/SpringAtInjectTck.java",
+      "parent_commit": "a429e230b632c40cf3167cbac54ea87b6ad87297"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/94533976d0db9604fb9265d0eed20cedd4a42650",
+  "actions": [
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "added",
+    "added"
+  ]
+}

@@ -1,0 +1,43 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    SimpleName:DelegatingDataSource
+    SimpleType:DataSource
+      SimpleName:DataSource
+    SimpleType:InitializingBean
+      SimpleName:InitializingBean
+    MethodDeclaration:
+      Modifier:public
+      SimpleType:Object [U]
+        SimpleName:Object [U]
+      SimpleName:unwrap
+      SingleVariableDeclaration:
+        SimpleType:Class [M]
+          SimpleName:Class
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ReturnStatement:
+          MethodInvocation:
+            MethodInvocation:
+              SimpleName:getTargetDataSource
+            SimpleName:unwrap
+            SimpleName:iface
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:boolean
+      SimpleName:isWrapperFor
+      SingleVariableDeclaration:
+        SimpleType:Class [M]
+          SimpleName:Class
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ReturnStatement:
+          MethodInvocation:
+            MethodInvocation:
+              SimpleName:getTargetDataSource
+            SimpleName:isWrapperFor
+            SimpleName:iface

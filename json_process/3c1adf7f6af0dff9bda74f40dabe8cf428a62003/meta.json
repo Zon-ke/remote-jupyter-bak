@@ -1,0 +1,81 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2018-03-19 08:45:22",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "3c1adf7f6af0dff9bda74f40dabe8cf428a62003",
+  "commit_log": "ThreadPoolTaskExecutor/Scheduler cancels remaining Futures on shutdown\n\n\nThreadPoolTaskExecutor/Scheduler cancels remaining Futures on shutdown\n\nIssue: SPR-16607\n",
+  "parents": [
+    "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "ExecutorConfigurationSupport.java",
+      "prev_file_path": "prev/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/3c1adf7f6af0dff9bda74f40dabe8cf428a62003/gen/9d63f805b3b3ad07f102f6df779b852b2d1f306c/DiffExecutorConfigurationSupport.java.json"
+    },
+    {
+      "id": 1,
+      "file_name": "ThreadPoolTaskExecutor.java",
+      "prev_file_path": "prev/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/3c1adf7f6af0dff9bda74f40dabe8cf428a62003/gen/9d63f805b3b3ad07f102f6df779b852b2d1f306c/DiffThreadPoolTaskExecutor.java.json"
+    },
+    {
+      "id": 2,
+      "file_name": "ThreadPoolTaskScheduler.java",
+      "prev_file_path": "prev/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/main/java/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c",
+      "diffPath": "C:/Users/Administrator/Desktopoutput/spring-framework/3c1adf7f6af0dff9bda74f40dabe8cf428a62003/gen/9d63f805b3b3ad07f102f6df779b852b2d1f306c/DiffThreadPoolTaskScheduler.java.json"
+    },
+    {
+      "id": 3,
+      "file_name": "ConcurrentTaskExecutorTests.java",
+      "prev_file_path": "prev/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/ConcurrentTaskExecutorTests.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/ConcurrentTaskExecutorTests.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+    },
+    {
+      "id": 4,
+      "file_name": "ThreadPoolTaskSchedulerTests.java",
+      "prev_file_path": "prev/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/ThreadPoolTaskSchedulerTests.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/ThreadPoolTaskSchedulerTests.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+    },
+    {
+      "id": 5,
+      "file_name": "AbstractSchedulingTaskExecutorTests.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/AbstractSchedulingTaskExecutorTests.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+    },
+    {
+      "id": 6,
+      "file_name": "DecoratedThreadPoolTaskExecutorTests.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/DecoratedThreadPoolTaskExecutorTests.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+    },
+    {
+      "id": 7,
+      "file_name": "ThreadPoolTaskExecutorTests.java",
+      "curr_file_path": "curr/9d63f805b3b3ad07f102f6df779b852b2d1f306c/spring-context/src/test/java/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutorTests.java",
+      "parent_commit": "9d63f805b3b3ad07f102f6df779b852b2d1f306c"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/3c1adf7f6af0dff9bda74f40dabe8cf428a62003/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/3c1adf7f6af0dff9bda74f40dabe8cf428a62003",
+  "actions": [
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "modified",
+    "added",
+    "added",
+    "added"
+  ]
+}

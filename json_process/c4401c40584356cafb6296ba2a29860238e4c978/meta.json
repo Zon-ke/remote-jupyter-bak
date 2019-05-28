@@ -1,0 +1,33 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2008-12-05 15:25:33",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "c4401c40584356cafb6296ba2a29860238e4c978",
+  "commit_log": "updated changelog\n\n\nupdated changelog\n",
+  "parents": [
+    "0ed916495cb5cd04bbfac472eded152e876282fa"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "changelog.txt",
+      "prev_file_path": "prev/0ed916495cb5cd04bbfac472eded152e876282fa/build-spring-framework/resources/changelog.txt",
+      "curr_file_path": "curr/0ed916495cb5cd04bbfac472eded152e876282fa/build-spring-framework/resources/changelog.txt",
+      "parent_commit": "0ed916495cb5cd04bbfac472eded152e876282fa"
+    },
+    {
+      "id": 1,
+      "file_name": "spring-framework.ipr",
+      "prev_file_path": "prev/0ed916495cb5cd04bbfac472eded152e876282fa/spring-framework.ipr",
+      "curr_file_path": "curr/0ed916495cb5cd04bbfac472eded152e876282fa/spring-framework.ipr",
+      "parent_commit": "0ed916495cb5cd04bbfac472eded152e876282fa"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/c4401c40584356cafb6296ba2a29860238e4c978/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/c4401c40584356cafb6296ba2a29860238e4c978",
+  "actions": [
+    "modified",
+    "modified"
+  ]
+}

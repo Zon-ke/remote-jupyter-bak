@@ -1,0 +1,246 @@
+[
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "808,38,51",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "874,24,38",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(808,808)-(874,874)",
+        "description": "moveSingleVariableDeclaration",
+        "id": 0,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "616,45,51",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "616,45,51",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(616,616)-(616,616)",
+        "description": "moveSimpleType",
+        "id": 1,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "652,31,37",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "652,31,37",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(652,652)-(652,652)",
+        "description": "moveSimpleType",
+        "id": 2,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "688,29,35",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "688,29,35",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(688,688)-(688,688)",
+        "description": "moveSimpleType",
+        "id": 3,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "762,52,58",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "762,52,58",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(762,762)-(762,762)",
+        "description": "moveSimpleType",
+        "id": 4,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "874,24,30",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "808,38,44",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(874,874)-(808,808)",
+        "description": "moveSimpleType",
+        "id": 5,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change.Move",
+        "sub-range": [
+            {
+                "file": "src",
+                "sub-range-code": "808,38,44",
+                "sub-type": "move"
+            },
+            {
+                "file": "dst",
+                "sub-range-code": "874,24,30",
+                "sub-type": "move"
+            }
+        ],
+        "range": "(808,808)-(874,874)",
+        "description": "moveSimpleType",
+        "id": 6,
+        "type1": "Member",
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [
+            {
+                "file": "dst",
+                "sub-range-code": "808,38,52",
+                "sub-type": "insert"
+            },
+            {
+                "file": "src",
+                "sub-range-code": "808,38,46",
+                "sub-type": "delete"
+            }
+        ],
+        "range": "(787,808)-(787,808)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 7,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "src",
+            "sub-range-code": "874,24,37",
+            "sub-type": "delete"
+        }],
+        "range": "(863,874)-(863,874)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 8,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "src",
+            "sub-range-code": "616,45,53",
+            "sub-type": "delete"
+        }],
+        "range": "(595,616)-(595,616)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 9,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "src",
+            "sub-range-code": "652,31,39",
+            "sub-type": "delete"
+        }],
+        "range": "(636,652)-(636,652)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 10,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "src",
+            "sub-range-code": "688,29,37",
+            "sub-type": "delete"
+        }],
+        "range": "(672,688)-(672,688)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 11,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    },
+    {
+        "file": "src-dst",
+        "type2": "Change",
+        "sub-range": [{
+            "file": "src",
+            "sub-range-code": "762,52,60",
+            "sub-type": "delete"
+        }],
+        "range": "(746,762)-(746,762)",
+        "description": "updateMethodDeclaration declaration  by",
+        "id": 12,
+        "type1": "Member",
+        "opt2-exp2": [],
+        "key": "gumtree"
+    }
+]

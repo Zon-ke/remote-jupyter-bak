@@ -1,0 +1,76 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    Modifier:abstract
+    SimpleName:StoredProcedure
+    SimpleType:SqlCall
+      SimpleName:SqlCall
+    MethodDeclaration:
+      Modifier:public
+      ParameterizedType:Map<String,Object> [I]
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String [I]
+          SimpleName:String [I]
+        SimpleType:Object [I]
+          SimpleName:Object [I]
+      SimpleName:execute
+      SingleVariableDeclaration:
+        ParameterizedType:Map<String,?> [I]
+          SimpleType:Map
+            SimpleName:Map
+          SimpleType:String [I]
+            SimpleName:String [I]
+          WildcardType:? [I]
+        SimpleName:inParams
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:validateParameters
+            MethodInvocation:
+              MethodInvocation:
+                SimpleName:inParams
+                SimpleName:values
+              SimpleName:toArray
+        ReturnStatement:
+          MethodInvocation:
+            MethodInvocation:
+              SimpleName:getJdbcTemplate
+            SimpleName:call
+            MethodInvocation:
+              SimpleName:newCallableStatementCreator
+              SimpleName:inParams
+            MethodInvocation:
+              SimpleName:getDeclaredParameters
+    MethodDeclaration:
+      Modifier:public
+      ParameterizedType:Map<String,Object> [I]
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String [I]
+          SimpleName:String [I]
+        SimpleType:Object [I]
+          SimpleName:Object [I]
+      SimpleName:execute
+      SingleVariableDeclaration:
+        SimpleType:ParameterMapper
+          SimpleName:ParameterMapper
+        SimpleName:inParamMapper
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:checkCompiled
+        ReturnStatement:
+          MethodInvocation:
+            MethodInvocation:
+              SimpleName:getJdbcTemplate
+            SimpleName:call
+            MethodInvocation:
+              SimpleName:newCallableStatementCreator
+              SimpleName:inParamMapper
+            MethodInvocation:
+              SimpleName:getDeclaredParameters

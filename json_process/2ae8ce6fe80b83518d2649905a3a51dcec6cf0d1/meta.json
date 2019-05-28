@@ -1,0 +1,25 @@
+{
+  "project_name": "spring-framework",
+  "author": "Chris Beams",
+  "date_time": "2008-12-12 06:41:00",
+  "committer": "Chris Beams",
+  "commit_hash": "2ae8ce6fe80b83518d2649905a3a51dcec6cf0d1",
+  "commit_log": "upgraded integration test to JUnit 4\n\n\nupgraded integration test to JUnit 4\n",
+  "parents": [
+    "08f1be7f85bc148f83b85a2f18d43f9b4e9b2c95"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "AspectJAutoProxyCreatorTests.java",
+      "prev_file_path": "prev/08f1be7f85bc148f83b85a2f18d43f9b4e9b2c95/org.springframework.testsuite/src/test/java/org/springframework/aop/aspectj/autoproxy/AspectJAutoProxyCreatorTests.java",
+      "curr_file_path": "curr/08f1be7f85bc148f83b85a2f18d43f9b4e9b2c95/org.springframework.testsuite/src/test/java/org/springframework/aop/aspectj/autoproxy/AspectJAutoProxyCreatorTests.java",
+      "parent_commit": "08f1be7f85bc148f83b85a2f18d43f9b4e9b2c95"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/2ae8ce6fe80b83518d2649905a3a51dcec6cf0d1/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/2ae8ce6fe80b83518d2649905a3a51dcec6cf0d1",
+  "actions": [
+    "modified"
+  ]
+}

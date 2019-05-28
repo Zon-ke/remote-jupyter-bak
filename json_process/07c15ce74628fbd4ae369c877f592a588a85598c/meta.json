@@ -1,0 +1,305 @@
+{
+  "project_name": "spring-framework",
+  "author": "Chris Beams",
+  "date_time": "2008-12-20 17:36:46",
+  "committer": "Chris Beams",
+  "commit_hash": "07c15ce74628fbd4ae369c877f592a588a85598c",
+  "commit_log": "renamed .testsuite -\u003e .integration-tests\n\n\nrenamed .testsuite -\u003e .integration-tests\n\n",
+  "parents": [
+    "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "build.xml",
+      "prev_file_path": "prev/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/build-spring-framework/build.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/build-spring-framework/build.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 1,
+      "file_name": "spring-framework.ipr",
+      "prev_file_path": "prev/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/spring-framework.ipr",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/spring-framework.ipr",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 2,
+      "file_name": ".classpath",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/.classpath",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 3,
+      "file_name": ".project",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/.project",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 4,
+      "file_name": "org.eclipse.jdt.core.prefs",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/.settings/org.eclipse.jdt.core.prefs",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 5,
+      "file_name": "org.eclipse.jdt.ui.prefs",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/.settings/org.eclipse.jdt.ui.prefs",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 6,
+      "file_name": "org.springframework.ide.eclipse.core.prefs",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/.settings/org.springframework.ide.eclipse.core.prefs",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 7,
+      "file_name": "build.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/build.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 8,
+      "file_name": "ivy.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/ivy.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 9,
+      "file_name": "pom.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/pom.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 10,
+      "file_name": "AopNamespaceHandlerScopeIntegrationTests-context.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/aop/config/AopNamespaceHandlerScopeIntegrationTests-context.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 11,
+      "file_name": "AopNamespaceHandlerScopeIntegrationTests.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/aop/config/AopNamespaceHandlerScopeIntegrationTests.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 12,
+      "file_name": "AdvisorAutoProxyCreatorIntegrationTests-context.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 13,
+      "file_name": "AdvisorAutoProxyCreatorIntegrationTests.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 14,
+      "file_name": "ClassPathBeanDefinitionScannerScopeIntegrationTests.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/context/annotation/ClassPathBeanDefinitionScannerScopeIntegrationTests.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 15,
+      "file_name": "ComponentScanningWithLTWTests.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/context/annotation/ltw/ComponentScanningWithLTWTests.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 16,
+      "file_name": "ComponentScanningWithLTWTests.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/org/springframework/context/annotation/ltw/ComponentScanningWithLTWTests.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 17,
+      "file_name": "CountingAfterReturningAdvice.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/advice/CountingAfterReturningAdvice.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 18,
+      "file_name": "CountingBeforeAdvice.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/advice/CountingBeforeAdvice.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 19,
+      "file_name": "MethodCounter.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/advice/MethodCounter.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 20,
+      "file_name": "Colour.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/Colour.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 21,
+      "file_name": "INestedTestBean.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/INestedTestBean.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 22,
+      "file_name": "IOther.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/IOther.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 23,
+      "file_name": "ITestBean.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/ITestBean.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 24,
+      "file_name": "IndexedTestBean.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/IndexedTestBean.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 25,
+      "file_name": "NestedTestBean.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/NestedTestBean.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 26,
+      "file_name": "Pet.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/Pet.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 27,
+      "file_name": "TestBean.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/beans/TestBean.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 28,
+      "file_name": "NopInterceptor.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/interceptor/NopInterceptor.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 29,
+      "file_name": "SerializableNopInterceptor.java",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/java/test/interceptor/SerializableNopInterceptor.java",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 30,
+      "file_name": "log4j.xml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/resources/log4j.xml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 31,
+      "file_name": "testlog4j.properties",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/resources/org/springframework/util/testlog4j.properties",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 32,
+      "file_name": "testlog4j.properties",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/resources/org/springframework/web/util/testlog4j.properties",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 33,
+      "file_name": "testlog4j.properties",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/src/test/resources/testlog4j.properties",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 34,
+      "file_name": "template.mf",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/template.mf",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    },
+    {
+      "id": 35,
+      "file_name": "testsuite.iml",
+      "curr_file_path": "curr/a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7/org.springframework.integration-tests/testsuite.iml",
+      "parent_commit": "a73e4fc26637d6abc3b7eab8d226c23c4a99a9d7"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/07c15ce74628fbd4ae369c877f592a588a85598c/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/07c15ce74628fbd4ae369c877f592a588a85598c",
+  "actions": [
+    "modified",
+    "modified",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "added",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed",
+    "removed"
+  ]
+}

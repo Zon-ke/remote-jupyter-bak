@@ -1,0 +1,25 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2008-11-27 08:25:38",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "c38bc4aa7ba07a791a60c10d7a66b6de91b22be7",
+  "commit_log": "updated to AspectJ 1.6.2\n\n\nupdated to AspectJ 1.6.2\n",
+  "parents": [
+    "a449472e069253c88916a5fa5bd3cfc2b08733ab"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "ivy.xml",
+      "prev_file_path": "prev/a449472e069253c88916a5fa5bd3cfc2b08733ab/org.springframework.aop/ivy.xml",
+      "curr_file_path": "curr/a449472e069253c88916a5fa5bd3cfc2b08733ab/org.springframework.aop/ivy.xml",
+      "parent_commit": "a449472e069253c88916a5fa5bd3cfc2b08733ab"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/c38bc4aa7ba07a791a60c10d7a66b6de91b22be7/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/c38bc4aa7ba07a791a60c10d7a66b6de91b22be7",
+  "actions": [
+    "modified"
+  ]
+}

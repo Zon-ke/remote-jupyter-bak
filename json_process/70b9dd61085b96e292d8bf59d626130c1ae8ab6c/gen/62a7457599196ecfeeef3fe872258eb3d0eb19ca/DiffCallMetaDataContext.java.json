@@ -1,0 +1,42 @@
+[{
+    "file": "src-dst",
+    "type2": "Change",
+    "sub-range": [
+        {
+            "file": "dst",
+            "sub-range-code": "487,20,21",
+            "sub-type": "insert"
+        },
+        {
+            "file": "dst",
+            "sub-range-code": "487,76,77",
+            "sub-type": "insert"
+        },
+        {
+            "file": "src",
+            "sub-range-code": "487,20,26",
+            "sub-type": "delete"
+        },
+        {
+            "file": "src",
+            "sub-range-code": "487,81,87",
+            "sub-type": "delete"
+        },
+        {
+            "file": "src",
+            "sub-range-code": "487,8,27",
+            "sub-type": "update"
+        },
+        {
+            "file": "src",
+            "sub-range-code": "487,69,88",
+            "sub-type": "update"
+        }
+    ],
+    "range": "(482,536)-(482,536)",
+    "description": "updateMethodDeclaration declaration  by",
+    "id": 25,
+    "type1": "Member",
+    "opt2-exp2": [],
+    "key": "gumtree"
+}]

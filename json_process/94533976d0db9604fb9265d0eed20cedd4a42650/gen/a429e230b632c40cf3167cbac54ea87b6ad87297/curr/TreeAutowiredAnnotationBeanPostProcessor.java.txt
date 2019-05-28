@@ -1,0 +1,408 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    SimpleName:AutowiredAnnotationBeanPostProcessor
+    SimpleType:InstantiationAwareBeanPostProcessorAdapter
+      SimpleName:InstantiationAwareBeanPostProcessorAdapter
+    SimpleType:MergedBeanDefinitionPostProcessor
+      SimpleName:MergedBeanDefinitionPostProcessor
+    SimpleType:PriorityOrdered
+      SimpleName:PriorityOrdered
+    SimpleType:BeanFactoryAware
+      SimpleName:BeanFactoryAware
+    MethodDeclaration:
+      MarkerAnnotation:
+        SimpleName:Override
+      Modifier:public
+      SimpleType:PropertyValues
+        SimpleName:PropertyValues
+      SimpleName:postProcessPropertyValues
+      SingleVariableDeclaration:
+        SimpleType:PropertyValues
+          SimpleName:PropertyValues
+        SimpleName:pvs
+      SingleVariableDeclaration:
+        ArrayType:PropertyDescriptor[]
+          SimpleType:PropertyDescriptor
+            SimpleName:PropertyDescriptor
+          Dimension:
+        SimpleName:pds
+      SingleVariableDeclaration:
+        SimpleType:Object
+          SimpleName:Object
+        SimpleName:bean
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:beanName
+      SimpleType:BeansException
+        SimpleName:BeansException
+      Block:
+        VariableDeclarationStatement:
+          SimpleType:InjectionMetadata
+            SimpleName:InjectionMetadata
+          VariableDeclarationFragment:
+            SimpleName:metadata
+            MethodInvocation:
+              SimpleName:findAutowiringMetadata
+              MethodInvocation:
+                SimpleName:bean
+                SimpleName:getClass
+        TryStatement:
+          Block:
+            ExpressionStatement:
+              MethodInvocation:
+                SimpleName:metadata
+                SimpleName:inject
+                SimpleName:bean
+                SimpleName:beanName
+                SimpleName:pvs
+          CatchClause:
+            SingleVariableDeclaration:
+              SimpleType:Throwable
+                SimpleName:Throwable
+              SimpleName:ex
+            Block:
+              ThrowStatement:
+                ClassInstanceCreation:
+                  SimpleType:BeanCreationException
+                    SimpleName:BeanCreationException
+                  SimpleName:beanName
+                  StringLiteral:"Injection of autowired dependencies failed"
+                  SimpleName:ex
+        ReturnStatement:
+          SimpleName:pvs
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:void
+      SimpleName:processInjection
+      SingleVariableDeclaration:
+        SimpleType:Object
+          SimpleName:Object
+        SimpleName:bean
+      SimpleType:BeansException
+        SimpleName:BeansException
+      Block:
+        VariableDeclarationStatement:
+          ParameterizedType:Class<?> [I]
+            SimpleType:Class [I]
+              SimpleName:Class
+            WildcardType:? [I]
+          VariableDeclarationFragment:
+            SimpleName:clazz
+            MethodInvocation: [I]
+              SimpleName:bean
+              SimpleName:getClass
+        VariableDeclarationStatement: [I]
+          SimpleType:InjectionMetadata
+            SimpleName:InjectionMetadata
+          VariableDeclarationFragment: [I]
+            SimpleName:metadata [I]
+            MethodInvocation: [I]
+              SimpleName:findAutowiringMetadata
+              SimpleName:clazz
+        TryStatement: [I]
+          Block: [I]
+            ExpressionStatement:
+              MethodInvocation:
+                SimpleName:metadata
+                SimpleName:inject
+                SimpleName:bean
+                NullLiteral:
+                NullLiteral:
+          CatchClause:
+            SingleVariableDeclaration:
+              SimpleType:Throwable
+                SimpleName:Throwable
+              SimpleName:ex
+            Block:
+              ThrowStatement:
+                ClassInstanceCreation:
+                  SimpleType:BeanCreationException
+                    SimpleName:BeanCreationException
+                  InfixExpression:+ [I]
+                    StringLiteral:"Injection of autowired dependencies failed for class [" [I]
+                    SimpleName:clazz [I]
+                    StringLiteral:"]" [I]
+                  SimpleName:ex
+    MethodDeclaration:
+      Modifier:private
+      SimpleType:InjectionMetadata
+        SimpleName:InjectionMetadata
+      SimpleName:findAutowiringMetadata
+      SingleVariableDeclaration:
+        Modifier:final
+        SimpleType:Class
+          SimpleName:Class
+        SimpleName:clazz
+      Block:
+        VariableDeclarationStatement:
+          SimpleType:InjectionMetadata
+            SimpleName:InjectionMetadata
+          VariableDeclarationFragment:
+            SimpleName:metadata
+            MethodInvocation:
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectionMetadataCache
+              SimpleName:get
+              SimpleName:clazz
+        IfStatement:
+          InfixExpression:==
+            SimpleName:metadata
+            NullLiteral:
+          Block:
+            SynchronizedStatement:
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectionMetadataCache
+              Block:
+                ExpressionStatement:
+                  Assignment:=
+                    SimpleName:metadata
+                    MethodInvocation:
+                      FieldAccess:
+                        ThisExpression:
+                        SimpleName:injectionMetadataCache
+                      SimpleName:get
+                      SimpleName:clazz
+                IfStatement:
+                  InfixExpression:==
+                    SimpleName:metadata
+                    NullLiteral:
+                  Block: [I]
+                    VariableDeclarationStatement: [I]
+                      ParameterizedType:LinkedList<InjectionMetadata.InjectedElement> [I]
+                        SimpleType:LinkedList [I]
+                          SimpleName:LinkedList [I]
+                        SimpleType:InjectionMetadata.InjectedElement [I]
+                          QualifiedName:InjectionMetadata.InjectedElement [I]
+                      VariableDeclarationFragment: [I]
+                        SimpleName:elements [I]
+                        ClassInstanceCreation: [I]
+                          ParameterizedType:LinkedList<InjectionMetadata.InjectedElement> [I]
+                            SimpleType:LinkedList [I]
+                              SimpleName:LinkedList [I]
+                            SimpleType:InjectionMetadata.InjectedElement [I]
+                              QualifiedName:InjectionMetadata.InjectedElement [I]
+                    VariableDeclarationStatement: [I]
+                      ParameterizedType:Class<?> [I]
+                        SimpleType:Class [I]
+                          SimpleName:Class [I]
+                        WildcardType:? [I]
+                      VariableDeclarationFragment: [I]
+                        SimpleName:targetClass [I]
+                        SimpleName:clazz [I]
+                    DoStatement: [I]
+                      Block:
+                        VariableDeclarationStatement:
+                          ParameterizedType:LinkedList<InjectionMetadata.InjectedElement> [I]
+                            SimpleType:LinkedList [I]
+                              SimpleName:LinkedList [I]
+                            SimpleType:InjectionMetadata.InjectedElement [I]
+                              QualifiedName:InjectionMetadata.InjectedElement [I]
+                          VariableDeclarationFragment:
+                            SimpleName:currElements
+                            ClassInstanceCreation:
+                              ParameterizedType:LinkedList<InjectionMetadata.InjectedElement> [I]
+                                SimpleType:LinkedList [I]
+                                  SimpleName:LinkedList [I]
+                                SimpleType:InjectionMetadata.InjectedElement [I]
+                                  QualifiedName:InjectionMetadata.InjectedElement [I]
+                        EnhancedForStatement: [I]
+                          SingleVariableDeclaration:
+                            SimpleType:Field
+                              SimpleName:Field
+                            SimpleName:field
+                          MethodInvocation: [I]
+                            SimpleName:targetClass
+                            SimpleName:getDeclaredFields
+                          Block:
+                            VariableDeclarationStatement:
+                              SimpleType:Annotation
+                                SimpleName:Annotation
+                              VariableDeclarationFragment:
+                                SimpleName:annotation
+                                MethodInvocation:
+                                  SimpleName:findAutowiredAnnotation
+                                  SimpleName:field
+                            IfStatement:
+                              InfixExpression:!=
+                                SimpleName:annotation
+                                NullLiteral:
+                              Block:
+                                IfStatement: [I]
+                                  MethodInvocation:
+                                    SimpleName:Modifier
+                                    SimpleName:isStatic
+                                    MethodInvocation:
+                                      SimpleName:field
+                                      SimpleName:getModifiers
+                                  Block: [I]
+                                    IfStatement:
+                                      MethodInvocation: [I]
+                                        SimpleName:logger [I]
+                                        SimpleName:isWarnEnabled [I]
+                                      Block:
+                                        ExpressionStatement: [I]
+                                          MethodInvocation: [I]
+                                            SimpleName:logger [I]
+                                            SimpleName:warn [I]
+                                            InfixExpression:+ [I]
+                                              StringLiteral:"Autowired annotation is not supported on static fields: " [I]
+                                              SimpleName:field [I]
+                                    ContinueStatement: [I]
+                                VariableDeclarationStatement:
+                                  PrimitiveType:boolean
+                                  VariableDeclarationFragment:
+                                    SimpleName:required
+                                    MethodInvocation:
+                                      SimpleName:determineRequiredStatus
+                                      SimpleName:annotation
+                                ExpressionStatement:
+                                  MethodInvocation:
+                                    SimpleName:currElements
+                                    SimpleName:add
+                                    ClassInstanceCreation:
+                                      SimpleType:AutowiredFieldElement
+                                        SimpleName:AutowiredFieldElement
+                                      SimpleName:field
+                                      SimpleName:required
+                        EnhancedForStatement: [I]
+                          SingleVariableDeclaration:
+                            SimpleType:Method
+                              SimpleName:Method
+                            SimpleName:method
+                          MethodInvocation: [I]
+                            SimpleName:targetClass
+                            SimpleName:getDeclaredMethods [I]
+                          Block:
+                            VariableDeclarationStatement:
+                              SimpleType:Annotation
+                                SimpleName:Annotation
+                              VariableDeclarationFragment:
+                                SimpleName:annotation
+                                MethodInvocation:
+                                  SimpleName:findAutowiredAnnotation
+                                  SimpleName:method
+                            IfStatement:
+                              InfixExpression:&&
+                                InfixExpression:!=
+                                  SimpleName:annotation
+                                  NullLiteral:
+                                MethodInvocation:
+                                  SimpleName:method
+                                  SimpleName:equals
+                                  MethodInvocation:
+                                    SimpleName:ClassUtils
+                                    SimpleName:getMostSpecificMethod
+                                    SimpleName:method
+                                    SimpleName:clazz
+                              Block:
+                                IfStatement: [I]
+                                  MethodInvocation:
+                                    SimpleName:Modifier
+                                    SimpleName:isStatic
+                                    MethodInvocation:
+                                      SimpleName:method
+                                      SimpleName:getModifiers
+                                  Block: [I]
+                                    IfStatement:
+                                      MethodInvocation: [I]
+                                        SimpleName:logger [I]
+                                        SimpleName:isWarnEnabled [I]
+                                      Block:
+                                        ExpressionStatement: [I]
+                                          MethodInvocation: [I]
+                                            SimpleName:logger [I]
+                                            SimpleName:warn [I]
+                                            InfixExpression:+ [I]
+                                              StringLiteral:"Autowired annotation is not supported on static methods: " [I]
+                                              SimpleName:method [I]
+                                    ContinueStatement: [I]
+                                IfStatement: [I]
+                                  InfixExpression:==
+                                    FieldAccess:
+                                      MethodInvocation:
+                                        SimpleName:method
+                                        SimpleName:getParameterTypes
+                                      SimpleName:length
+                                    NumberLiteral:0
+                                  Block: [I]
+                                    IfStatement:
+                                      MethodInvocation: [I]
+                                        SimpleName:logger [I]
+                                        SimpleName:isWarnEnabled [I]
+                                      Block:
+                                        ExpressionStatement: [I]
+                                          MethodInvocation: [I]
+                                            SimpleName:logger [I]
+                                            SimpleName:warn [I]
+                                            InfixExpression:+ [I]
+                                              StringLiteral:"Autowired annotation should be used on methods with actual parameters: "
+                                              SimpleName:method
+                                VariableDeclarationStatement:
+                                  PrimitiveType:boolean
+                                  VariableDeclarationFragment:
+                                    SimpleName:required
+                                    MethodInvocation:
+                                      SimpleName:determineRequiredStatus
+                                      SimpleName:annotation
+                                VariableDeclarationStatement:
+                                  SimpleType:PropertyDescriptor
+                                    SimpleName:PropertyDescriptor
+                                  VariableDeclarationFragment:
+                                    SimpleName:pd
+                                    MethodInvocation:
+                                      SimpleName:BeanUtils
+                                      SimpleName:findPropertyForMethod
+                                      SimpleName:method
+                                ExpressionStatement:
+                                  MethodInvocation:
+                                    SimpleName:currElements
+                                    SimpleName:add
+                                    ClassInstanceCreation:
+                                      SimpleType:AutowiredMethodElement
+                                        SimpleName:AutowiredMethodElement
+                                      SimpleName:method
+                                      SimpleName:required
+                                      SimpleName:pd
+                        ExpressionStatement:
+                          MethodInvocation:
+                            SimpleName:elements
+                            SimpleName:addAll
+                            NumberLiteral:0 [I]
+                            SimpleName:currElements
+                        ExpressionStatement:
+                          Assignment:=
+                            SimpleName:targetClass
+                            MethodInvocation: [I]
+                              SimpleName:targetClass [I]
+                              SimpleName:getSuperclass [I]
+                      InfixExpression:&& [I]
+                        InfixExpression:!= [I]
+                          SimpleName:targetClass [I]
+                          NullLiteral: [I]
+                        InfixExpression:!= [I]
+                          SimpleName:targetClass [I]
+                          TypeLiteral: [I]
+                            SimpleType:Object [I]
+                              SimpleName:Object [I]
+                    ExpressionStatement: [I]
+                      Assignment:= [I]
+                        SimpleName:metadata [I]
+                        ClassInstanceCreation: [I]
+                          SimpleType:InjectionMetadata
+                            SimpleName:InjectionMetadata
+                          SimpleName:clazz [I]
+                          SimpleName:elements [I]
+                    ExpressionStatement:
+                      MethodInvocation:
+                        FieldAccess:
+                          ThisExpression:
+                          SimpleName:injectionMetadataCache
+                        SimpleName:put
+                        SimpleName:clazz
+                        SimpleName:metadata
+        ReturnStatement:
+          SimpleName:metadata

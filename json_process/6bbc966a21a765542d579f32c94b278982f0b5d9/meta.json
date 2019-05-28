@@ -1,0 +1,25 @@
+{
+  "project_name": "spring-framework",
+  "author": "Juergen Hoeller",
+  "date_time": "2008-11-27 08:26:21",
+  "committer": "Juergen Hoeller",
+  "commit_hash": "6bbc966a21a765542d579f32c94b278982f0b5d9",
+  "commit_log": "fixed test source configuration\n\n\nfixed test source configuration\n",
+  "parents": [
+    "c38bc4aa7ba07a791a60c10d7a66b6de91b22be7"
+  ],
+  "files": [
+    {
+      "id": 0,
+      "file_name": "expression.iml",
+      "prev_file_path": "prev/c38bc4aa7ba07a791a60c10d7a66b6de91b22be7/org.springframework.expression/expression.iml",
+      "curr_file_path": "curr/c38bc4aa7ba07a791a60c10d7a66b6de91b22be7/org.springframework.expression/expression.iml",
+      "parent_commit": "c38bc4aa7ba07a791a60c10d7a66b6de91b22be7"
+    }
+  ],
+  "linkPath": "C:/Users/Administrator/Desktopoutput/spring-framework/6bbc966a21a765542d579f32c94b278982f0b5d9/link.json",
+  "outputDir": "C:/Users/Administrator/Desktopoutput/spring-framework/6bbc966a21a765542d579f32c94b278982f0b5d9",
+  "actions": [
+    "modified"
+  ]
+}

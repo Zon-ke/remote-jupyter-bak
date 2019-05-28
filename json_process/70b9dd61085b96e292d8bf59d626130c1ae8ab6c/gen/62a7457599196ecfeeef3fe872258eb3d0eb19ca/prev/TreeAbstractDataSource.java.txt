@@ -1,0 +1,68 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    Modifier:abstract
+    SimpleName:AbstractDataSource
+    SimpleType:DataSource
+      SimpleName:DataSource
+    MethodDeclaration:
+      Modifier:public
+      SimpleType:Object [U]
+        SimpleName:Object [U]
+      SimpleName:unwrap
+      SingleVariableDeclaration:
+        SimpleType:Class [M]
+          SimpleName:Class
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ExpressionStatement:
+          MethodInvocation:
+            SimpleName:Assert
+            SimpleName:notNull
+            SimpleName:iface
+            StringLiteral:"Interface argument must not be null"
+        IfStatement:
+          PrefixExpression:!
+            MethodInvocation:
+              TypeLiteral:
+                SimpleType:DataSource
+                  SimpleName:DataSource
+              SimpleName:equals
+              SimpleName:iface
+          Block:
+            ThrowStatement:
+              ClassInstanceCreation:
+                SimpleType:SQLException
+                  SimpleName:SQLException
+                InfixExpression:+
+                  StringLiteral:"DataSource of type ["
+                  MethodInvocation:
+                    MethodInvocation:
+                      SimpleName:getClass
+                    SimpleName:getName
+                  StringLiteral:"] can only be unwrapped as [javax.sql.DataSource], not as ["
+                  MethodInvocation:
+                    SimpleName:iface
+                    SimpleName:getName
+        ReturnStatement:
+          ThisExpression: [D]
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:boolean
+      SimpleName:isWrapperFor
+      SingleVariableDeclaration:
+        SimpleType:Class [M]
+          SimpleName:Class
+        SimpleName:iface
+      SimpleType:SQLException
+        SimpleName:SQLException
+      Block:
+        ReturnStatement:
+          MethodInvocation:
+            TypeLiteral:
+              SimpleType:DataSource
+                SimpleName:DataSource
+            SimpleName:equals
+            SimpleName:iface

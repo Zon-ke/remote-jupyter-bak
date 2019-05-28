@@ -1,0 +1,110 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    SimpleName:JdbcOperations
+    MethodDeclaration:
+      ParameterizedType:Map<String,Object>
+        SimpleType:Map
+          SimpleName:Map
+        SimpleType:String
+          SimpleName:String
+        SimpleType:Object
+          SimpleName:Object
+      SimpleName:queryForMap
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration:
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+    MethodDeclaration:
+      PrimitiveType:long
+      SimpleName:queryForLong
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration:
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+    MethodDeclaration:
+      PrimitiveType:int
+      SimpleName:queryForInt
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration:
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+    MethodDeclaration:
+      ParameterizedType:List<Map<String,Object>>
+        SimpleType:List
+          SimpleName:List
+        ParameterizedType:Map<String,Object>
+          SimpleType:Map
+            SimpleName:Map
+          SimpleType:String
+            SimpleName:String
+          SimpleType:Object
+            SimpleName:Object
+      SimpleName:queryForList
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration:
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+    MethodDeclaration:
+      SimpleType:SqlRowSet
+        SimpleName:SqlRowSet
+      SimpleName:queryForRowSet
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration: [M]
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException
+    MethodDeclaration:
+      PrimitiveType:int
+      SimpleName:update
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:sql
+      SingleVariableDeclaration: [D]
+        ArrayType:Object[] [D]
+          SimpleType:Object [M]
+            SimpleName:Object
+          Dimension: [D]
+        SimpleName:args [D]
+      SimpleType:DataAccessException
+        SimpleName:DataAccessException

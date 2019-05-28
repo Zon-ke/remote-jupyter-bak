@@ -1,0 +1,176 @@
+CompilationUnit:
+  TypeDeclaration:
+    Modifier:public
+    SimpleName:InjectionMetadata
+    MethodDeclaration: [I]
+      Modifier:public
+      SimpleName:InjectionMetadata
+      SingleVariableDeclaration:
+        SimpleType:Class
+          SimpleName:Class
+        SimpleName:targetClass
+      SingleVariableDeclaration: [I]
+        ParameterizedType:Collection<InjectedElement> [I]
+          SimpleType:Collection [I]
+            SimpleName:Collection [I]
+          SimpleType:InjectedElement [I]
+            SimpleName:InjectedElement [I]
+        SimpleName:elements [I]
+      Block: [I]
+        ExpressionStatement:
+          Assignment:=
+            FieldAccess:
+              ThisExpression:
+              SimpleName:injectedElements
+            ClassInstanceCreation: [I]
+              ParameterizedType:LinkedHashSet<InjectedElement> [I]
+                SimpleType:LinkedHashSet [I]
+                  SimpleName:LinkedHashSet [I]
+                SimpleType:InjectedElement [I]
+                  SimpleName:InjectedElement [I]
+        EnhancedForStatement: [I]
+          SingleVariableDeclaration:
+            SimpleType:InjectedElement
+              SimpleName:InjectedElement
+            SimpleName:element
+          SimpleName:elements [I]
+          Block: [I]
+            IfStatement: [I]
+              MethodInvocation: [I]
+                SimpleName:logger [I]
+                SimpleName:isDebugEnabled [I]
+              Block: [I]
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:logger
+                    SimpleName:debug
+                    InfixExpression:+ [I]
+                      StringLiteral:"Found injected element on class [" [I]
+                      MethodInvocation:
+                        SimpleName:targetClass
+                        SimpleName:getName
+                      StringLiteral:"]: " [I]
+                      SimpleName:element [I]
+            ExpressionStatement:
+              MethodInvocation:
+                FieldAccess:
+                  ThisExpression:
+                  SimpleName:injectedElements
+                SimpleName:add [I]
+                SimpleName:element [I]
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:void
+      SimpleName:checkConfigMembers
+      SingleVariableDeclaration:
+        SimpleType:RootBeanDefinition
+          SimpleName:RootBeanDefinition
+        SimpleName:beanDefinition
+      Block: [I]
+        ForStatement: [I]
+          VariableDeclarationExpression: [I]
+            ParameterizedType:Iterator<InjectedElement> [I]
+              SimpleType:Iterator [I]
+                SimpleName:Iterator
+              SimpleType:InjectedElement [I]
+                SimpleName:InjectedElement
+            VariableDeclarationFragment: [I]
+              SimpleName:it [I]
+              MethodInvocation: [I]
+                FieldAccess:
+                  ThisExpression:
+                  SimpleName:injectedElements
+                SimpleName:iterator
+          MethodInvocation: [I]
+            SimpleName:it [I]
+            SimpleName:hasNext [I]
+          Block: [I]
+            VariableDeclarationStatement:
+              SimpleType:Member [I]
+                SimpleName:Member [I]
+              VariableDeclarationFragment:
+                SimpleName:member
+                MethodInvocation: [I]
+                  MethodInvocation: [I]
+                    SimpleName:it
+                    SimpleName:next
+                  SimpleName:getMember [I]
+            IfStatement: [I]
+              PrefixExpression:! [I]
+                MethodInvocation: [I]
+                  SimpleName:beanDefinition [I]
+                  SimpleName:isExternallyManagedConfigMember [I]
+                  SimpleName:member [I]
+              Block:
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:beanDefinition
+                    SimpleName:registerExternallyManagedConfigMember
+                    SimpleName:member [I]
+              Block: [I]
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:it
+                    SimpleName:remove
+    MethodDeclaration:
+      Modifier:public
+      PrimitiveType:void
+      SimpleName:inject
+      SingleVariableDeclaration:
+        SimpleType:Object
+          SimpleName:Object
+        SimpleName:target
+      SingleVariableDeclaration:
+        SimpleType:String
+          SimpleName:String
+        SimpleName:beanName
+      SingleVariableDeclaration:
+        SimpleType:PropertyValues
+          SimpleName:PropertyValues
+        SimpleName:pvs
+      SimpleType:Throwable
+        SimpleName:Throwable
+      Block:
+        IfStatement:
+          PrefixExpression:!
+            MethodInvocation:
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectedElements
+              SimpleName:isEmpty
+          Block:
+            VariableDeclarationStatement:
+              PrimitiveType:boolean
+              VariableDeclarationFragment:
+                SimpleName:debug
+                MethodInvocation:
+                  SimpleName:logger
+                  SimpleName:isDebugEnabled
+            EnhancedForStatement:
+              SingleVariableDeclaration:
+                SimpleType:InjectedElement
+                  SimpleName:InjectedElement
+                SimpleName:element
+              FieldAccess:
+                ThisExpression:
+                SimpleName:injectedElements
+              Block:
+                IfStatement:
+                  SimpleName:debug
+                  Block:
+                    ExpressionStatement:
+                      MethodInvocation:
+                        SimpleName:logger
+                        SimpleName:debug
+                        InfixExpression:+
+                          StringLiteral:"Processing injected method of bean '"
+                          SimpleName:beanName
+                          StringLiteral:"': "
+                          SimpleName:element
+                ExpressionStatement:
+                  MethodInvocation:
+                    SimpleName:element
+                    SimpleName:inject
+                    SimpleName:target
+                    SimpleName:beanName
+                    SimpleName:pvs
